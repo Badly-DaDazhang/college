@@ -7,491 +7,50 @@
     <title>山西同文职业技术学院--医学护理系</title>
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="css/college.css">
-    <link rel="stylesheet" href="fontcss//iconfont.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="font/iconfont.css">
     <script src="./js/jquery.js"></script>
     <script src="./js/bootstrap.js"></script>
     <script src="./js/college.js"></script>
     <style>
        
-        html{font-size:100%;} 
-        .logo .row div {
-            padding:0;
-        }
-        .logo .row div img{
-            width: 100%;
-             margin: 1.5rem 0;
-             display:inline-block;width: 55%;
-        }
-        .logo .row div.logo-r{
-            padding-top:2rem;
-        }
-        .logo .row div.logo-r-sm{
-            display: none;
-            }
-        div.dhl{
-            padding:0 !important;
-        }
-        div.dhl .navbar{
-            background-color: #D50C00!important;
-            background-image: url(./images/base-bg.png);
-            margin:0 !important;
-            padding:0 !important;
-        }
-        @media (max-width: 767px) {  
-            /*在小于768像素的屏幕里,这里的样式才生效 xs*/  
-            .logo .row div img {
-               margin:0.8rem 0 0.8rem 1rem !important;
-               
-             display:inline-block;
-             width: 100%;
-      
-            }
-            .logo .row div.logo-r{
-            display: none;
-            }
-            .logo .row div.logo-r-sm{
-                display:block;
-            }
-
-            .zysz{
-                display: none;
-            }
-            .zysz-sm span.tit{
-  
-                font-size:1rem;
-                font-family:PingFangSC-Regular,PingFang SC;
-                font-weight:400;
-                color:rgba(255,255,255,1) !important;
-            }
-            .trends-tittle ul li{
-                width:5rem !important;
-            }
-            .trends-tittle ul li a{
-                font-size:1rem !important;
-                padding:0 !important;
-                text-align: center;
-            }
-            
-            .build .module-b  ul li{
-                width:7.5rem !important;
-            }
-            .build .module-b ul li a{
-                font-size:1rem !important;
-                padding:0 !important;
-                text-align: center;
-            }
-
-            .module-teacher-tit ul li{
-                width:7.5rem !important;
-            }
-            .module-teacher-tit ul li a{
-                font-size:1rem !important;
-                padding:0 !important;
-                text-align: center;
-            }
-
-            .module-train .train-tittle ul li{
-                width:5rem !important;
-            }
-            .module-train .train-tittle ul li a{
-                font-size:1rem !important;
-                padding:0 !important;
-                text-align: center;
-            }
-
-            #teacher-banner .carousel-inner .carousel-item .teac-c {
-                display: flex;
-                
-                width:100%;
-                margin-left:0.6%;
-
-            }
-            #teacher-banner .carousel-inner .carousel-item .teac-c .t-i {
-            
-                width:33.1%;
-                margin:0 !important;
-            }
-            #teacher-banner .carousel-inner .carousel-item{
-                height:31rem;
-            }
-
-           
-        }  
-        @media (min-width: 768px) and (max-width: 991px) {  
-            /*在768和991像素之间的屏幕里,这里的样式才生效 md */ 
-            .logo .row div img {
-               margin-left:1rem !important;
-               
-             display:inline-block;
-             width: 100%;
-      
-            }
-            .logo .row div.logo-r{
-            padding-top:1.5rem;
-        }
-            .zysz{
-                display: none;
-            }
-            .zysz-sm span.tit{
-  
-                font-size:1rem;
-                font-family:PingFangSC-Regular,PingFang SC;
-                font-weight:400;
-                color:rgba(255,255,255,1) !important;
-            }
-
-            #teacher-banner .carousel-inner .carousel-item .teac-c {
-                display: flex;
-                
-                width:100%;
-                margin-left:0.6%;
-
-            }
-            #teacher-banner .carousel-inner .carousel-item .teac-c .t-i {
-            
-                width:33.1%;
-                margin:0 !important;
-            }
-            #teacher-banner .carousel-inner .carousel-item{
-                height:46rem;
-            }
-
-           
-            
-        }  
-        @media (min-width: 992px) and (max-width: 1199px) {  
-            /*在992和1199像素之间的屏幕里,这里的样式才生效 lg*/ 
-            .zysz-sm{
-                display: none;
-            }
-            .zysz .zysz-l{
-                    background:url("images/index/zysz_bg.png");
-                    background-repeat: no-repeat;
-                    background-size: 100% 100%;
-
-                    height: 9rem; 
-                    position: relative;
-                }
-                
-                .zysz .zysz-l span.c-l{
-                    width:48px;
-                    height:66px;
-                    font-size:1.5rem;
-                    font-family:PingFangSC-Regular,PingFang SC;
-                    font-weight:400;
-                    color:rgba(255,255,255,1);
-                    line-height:25px;
-
-                    position:absolute;
-                    top:35%;
-                    left:31px;
-                }
-                .zysz .zysz-l span.c-rb{
-                    width:49px;
-                    height:20px;
-
-                    font-size:0.5rem;
-                    font-family:PingFangSC-Regular,PingFang SC;
-                    font-weight:400;
-                    color:rgba(255,255,255,1);
-                    line-height:15px;
-
-                    position:absolute;
-                    right:3%;
-                    bottom:5%;
-                    
-                } 
-                .zysz .zysz-r{
-                
-                    background-color:#fff;
-                    padding:0;
-                    
-                }
-                .zysz-r  .r-con{
-                    width:99%;
-                    margin-left:1%;
-                    background-color:#f2f0f3;
-                    margin:0 !important; 
-                }
-                .zysz-r  .r-con div{
-                    height:4.5rem;
-                    line-height:4.5rem;
-                }
-                
-                #teacher-banner .carousel-inner .carousel-item .teac-c {
-                    display: flex;
-                    
-                    width:100%;
-                    margin-left:0.6%;
-
-                }
-                #teacher-banner .carousel-inner .carousel-item .teac-c .t-i {
-                
-                    width:16.5%;
-                    margin:0 !important;
-                }
-                #teacher-banner .carousel-inner .carousel-item{
-                    height:22rem;
-                }
-        }  
-        @media (min-width: 1200px) {  
-            /*在大于1200像素的屏幕里,这里的样式才生效*/ 
-            .zysz .zysz-l{
-                    background:url("images/index/zysz_bg.png");
-                    background-repeat: no-repeat;
-                    background-size: 100% 100%;
-
-                    height: 9rem; 
-                    position: relative;
-                }
-                .zysz .zysz-l span.c-l{
-                    width:48px;
-                    height:66px;
-                    font-size:1.5rem;
-                    font-family:PingFangSC-Regular,PingFang SC;
-                    font-weight:400;
-                    color:rgba(255,255,255,1);
-                    line-height:25px;
-
-                    position:absolute;
-                    top:35%;
-                    left:31px;
-                }
-                .zysz .zysz-l span.c-rb{
-                    width:49px;
-                    height:20px;
-
-                    font-size:0.5rem;
-                    font-family:PingFangSC-Regular,PingFang SC;
-                    font-weight:400;
-                    color:rgba(255,255,255,1);
-                    line-height:15px;
-
-                    position:absolute;
-                    right:3%;
-                    bottom:5%;
-                    
-                } 
-                .zysz .zysz-r{
-                
-                    background-color:#fff;
-                    padding:0;
-                    
-                } 
-                .zysz-r  .r-con{
-                    width:99%;
-                    margin-left:1%;
-                    background-color:#f2f0f3;
-                    
-                }
-                .zysz-r  .r-con div{
-                    height:4.5rem;
-                    line-height:4.5rem;
-                }
-                .zysz-sm{
-                    display: none;
-                }
-
-                #teacher-banner .carousel-inner .carousel-item .teac-c {
-                    display: flex;
-                    
-                    width:100%;
-                    margin-left:0.6%;
-
-                }
-                #teacher-banner .carousel-inner .carousel-item .teac-c .t-i {
-                
-                    width:16.5%;
-                    margin:0 !important;
-                }
-                #teacher-banner .carousel-inner .carousel-item{
-                    height:22rem;
-                }
-            
-        }
         
-        
-        .zysz-r  .r-con div a{
-            text-decoration: none;
-            font-size:0.9rem;
-            font-family:PingFangSC-Regular,PingFang SC;
-            font-weight:400;
-            color:rgba(51,51,51,1);
-            line-height:0.8rem;
-            margin-left:22%;
-        }
-        .zysz-r  .r-con div a:hover{
-            color: #007bff;
-        }
-        span.s1,span.s2{
-            margin:0;
-        }
-
-        /* trends */
-
-        .trends .trends-tittle ul li a{
-           
-         
-            font-size:1.5rem;
-            font-family:PingFangSC-Medium,PingFang SC;
-            font-weight:500;
-            color:rgba(213,12,0,1);
-            line-height:2rem;
-        }
-        .trends .tab-content{
-            min-height:20rem;
-        }
-         /* build */
-         .build{
-            background-color: #F7F0E8;
-         }
-         .build .module-b{
-            padding: 5rem 0;
-         }
-         .build .module-b div.module-b-tit{
-            border-bottom: 1px solid #979797; margin-bottom: 1rem;
-         }
-        .build .module-b ul li a{
-           
-         
-           font-size:1.5rem;
-           font-family:PingFangSC-Medium,PingFang SC;
-           font-weight:500;
-           color:rgba(213,12,0,1);
-           line-height:2rem;
-        }
-        .build .module-b .tab-content .tab-pane .row>div{
-            background-color: #FFFFFF;
-            border:0.5rem solid #F7F0E8;
-        }
-        .build .module-b .tab-content .tab-pane .row div .card-item{
-           margin:1rem 0;
-        }
-        .build .module-b .tab-content .tab-pane .row div .card-item img{
-            height:13rem;
-            width:100%;
-        }
-        .build .module-b .tab-content .tab-pane .row div .card-item>div{
-            padding: 1em;
-        }
-        .build .module-b .tab-content .tab-pane .row div .card-item>div p.t{
-            font-size: 1.0em; font-weight: 600; color: #D50C00;
-        }
-        .build .module-b .tab-content .tab-pane .row div .card-item .date-c{
-            position: relative;
-            width:100%;
-            height:2.5rem;
-
-        }
-        .build .module-b .tab-content .tab-pane .row div .card-item .date-c .date{
-            width:4.6rem;
-            height:4.6rem;
-            line-height:2.1rem;
-            padding:0.6rem 0 0.2rem 0;
-            background:rgba(135,122,105,1);
-            text-align: center;
-            color:#fff;
-           position: absolute;
-           top:-2.3rem;
-           right:3%;
-           
-            
-        }
-        .date-c .date .day{
-            font-size:1.5rem;
-            display:block;
-        }
-        .date-c .date .year-mon{
-            font-size:0.5rem;
-            display:block;
-        }
-
-
-        /* module-teacher  教师风采*/
-        .module-teacher{
-            margin-bottom:3rem;
-        }
-        .module-teacher .module-teacher-tit ul li a{
-           font-size:1.5rem;
-           font-family:PingFangSC-Medium,PingFang SC;
-           font-weight:500;
-           color:rgba(213,12,0,1);
-           line-height:2rem;
-       }
-      
-        .module-teacher .module-teacher-tit{
-            border-bottom: 1px solid #979797; 
-            margin-bottom: 2rem;
-        }
-        #teacher-banner .teacher-ul.carousel-indicators li{
-            opacity:0.3;
-            background-color:rgba(0,0,0,1);
-        }
-        #teacher-banner .teacher-ul.carousel-indicators li.active{
-            opacity:0.8;
-            background-color:rgba(0,0,0,1);
-        }
-       
-        
-        
-        #teacher-banner .carousel-inner .carousel-item .teac-c .t-i .card  {
-            width:100%;
-            border: none;
-            /* height:100%; */
-            overflow: hidden;
-            margin-right:0 !important;
-            text-align: center;
-        }
-       
-        .teac-c .t-i .card img{
-            display: inline-block;
-            width:96%;
-            height:70%;
-            border-radius: 50%;
-
-            margin-left:1.6%;
-             /* background-color: darkgray; */
-        }
-        /* .module-train */
-        .module-train
-        {
-            background:rgba(255,247,238,1);
-            padding: 0.5rem 0 2rem 0;
-        }
-       /* 脚部 footer */
-       .footer{
-        background-image: url(./images/contact-bg.png); padding: 4rem 0 0;
-       }
-       .footer-link{
-        padding: 2em; margin-top: 4rem; color: #FFFFFF; background:rgba(0, 0, 0, 0.4)
-       }
 
 
     </style>
 </head>
 
 <body>
-    <div class="container logo" >
-        <div class="row">
-            <div class="col-9 logo-l">
-                <img src="images/logo/yxhlx2x.png" />
-                
+    <div class="logo" style="background-color: #fff;">
+        <div class="container logo-con" >
+            <div class="row" >
+                <div class="col-9 logo-l" style="background-color: #fff;">
+                    <img src="images/logo/yxhlx2x.png" />
+                </div>
+                <div  class="col-3 logo-r"  style="background-color: #fff;">
+                    <nav class="my-2 my-md-0 mr-md-3" style="color: #D50C00;">
+                        <a class="p-2" >
+                            <i class="iconfont iconhome" ></i>同文主页</a>
+                        <a class="p-2" > 
+                            <i class="iconfont iconsearch" ></i>搜索</a>
+                    </nav>
+                </div>
+                <div  class="col-3 logo-r-sm">
+                    <nav style="height: 100%;">
+                        <a class="" ><i class="iconfont iconsearch" ></i></a>
+                        <span class="fe" style="display: inline-block;padding: 0;margin: 0;width:1%;height:1rem;border:1px solid#fff;"></span>
+                        <a class="" ><i class="iconfont icondaohang" ></i></a>
+                    </nav>
+                </div>
             </div>
-            <div  class="col-3 logo-r"  >
-                <nav class="my-2 my-md-0 mr-md-3" style="height: 2rem;float: right;">
-                    <a class="p-2" style="font-size:14px;color:#444;"><i class="iconfont"> &#xe66c;</i>同文主页</a>
-                    <a class="p-2" style="font-size:14px;color:#444;"><i class="iconfont">&#xe612;</i>搜索</a>
-                </nav>
-            </div>
-            <div  class="col-3 logo-r-sm"  style="background-color: #877A69;height: 3.5rem;">
-                <nav style="height: 100%;">
-                    <a class="" style="text-decoration:none;display: inline-block;width: 45%;height: 100%;text-align: center;"><i class="iconfont" style="display:inline-block;font-size:1.5rem;font-weight:600;line-height: 3.5rem;color: #fff;"> &#xe66c;</i></a>
-                    <a class="" style="text-decoration:none;display: inline-block;width: 45%;height: 100%;text-align: center;"><i class="iconfont" style="display:inline-block;font-size:1.5rem;font-weight:600;line-height: 3.5rem;color: #fff;">&#xe612;</i></a>
-                </nav>
-            </div>
+    
         </div>
 
+  
+    
     </div>
+
     <!-- 导航栏 -->
     <div class="container-fluid nav-container">
         <div class="container dhl" >
@@ -507,8 +66,18 @@
                         <li class="nav-item active">
                             <a class="nav-link" href="#">首页 <span class="sr-only">(current)</span></a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">系部简介</a>
+                        <li class="nav-item n-more">
+                            <a class="nav-link " href="#">系部简介
+                                <i class=" xx iconfont iconshoujixiala" style="width:1.2rem;float:right;font-size:1rem;font-weight: 600;"></i>
+                                <i class=" xs iconfont " style="width:1.2rem;float:right;font-size:1rem;font-weight: 600;text-align: center;"><img  src="images/xs.png" style="display: inline-block;margin-left: 5%;"></img></i>
+                            </a>
+                            <div class="hide-con">
+                                <ul class="h-c">
+                                    <li class="c-i"><a>模拟字段1</a></li>
+                                    <li class="c-i"><a>模拟字段2</a></li>
+                                    <li class="c-i"><a>模拟字段3</a></li>
+                                </ul>
+                            </div>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">系部动态</a>
@@ -1312,20 +881,7 @@
         </div>
     </div>
 
-    <!-- <div class="container " id="teachers" style="margin-top: 2rem; margin-bottom: 2rem;">
-        <div class="row_" style="overflow: hidden;">
-
-            <div class="card">
-                <img src="..." class="card-img-top " alt="..."
-                    style="margin: 10%; width: 80%; border-radius: 50%; background-color: darkgray;">
-                <div class="card-body">
-                    <p style="text-align: center; font-weight: 600;">姓名</p>
-                    <p style="text-align: center;">Some quick example.</p>
-                </div>
-            </div>
-
-        </div>
-    </div> -->
+   
     <!-- 人才培养  module-train-->
     <div class="module-train">
         <div class="container" style="margin-top: 2rem; ">
@@ -1614,11 +1170,36 @@
    </div>
 
    <script>
-       $(function(){
+    $(function(){
+        $(".xs").hide();
+        $(".xx").show();
+         $("li.n-more").hover(function(){
+             
+             $(this).children('.hide-con').fadeIn(500);
+             $(".xx").hide();
+             $(".xs").show();
+             $(this).children('.hide-con').hover(function(){
+                 $(this).addClass('xs');
+             },function(){
+                 $(this).children('.hide-con').hide();
+                 $(".xs").hide();
+                 $(".xx").show();
+             });
+         },function(){
+             $(this).children('.hide-con').fadeOut(500);
+             $(this).children('.hide-con').hover(function(){
+                 $(this).addClass('xs');
+             },function(){
+                 $(this).hide();
+                 $(".xs").hide();
+                 $(".xx").show();
+             });
+             $(".xs").hide();
+             $(".xx").show();
+         })
+    })
 
-       })
-
-   </script>
+</script>
    
     
 

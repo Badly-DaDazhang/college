@@ -1,3 +1,48 @@
+@media (max-width: 767px) {  
+    /*在小于768像素的屏幕里,这里的样式才生效 xs*/  
+    .new-list-date{
+        background: #F2EAE1;
+        color: #877A69;
+        font-size: 0.8rem;
+        text-align: center;
+        line-height:2rem;
+    
+    }
+    .new-list-desc{
+       
+       text-align: center !important;
+    font-size:1rem;
+    font-family:PingFangSC-Semibold,PingFang SC;
+    font-weight:600;
+    color:rgba(51,51,51,1);
+    line-height:2rem;
+    }
+   
+   
+}  
+@media (min-width: 768px) and (max-width: 991px) {  
+    /*在768和991像素之间的屏幕里,这里的样式才生效 md */ 
+    .new-list-desc{
+       
+        text-align: center !important;
+     font-size:1rem;
+     font-family:PingFangSC-Semibold,PingFang SC;
+     font-weight:600;
+     color:rgba(51,51,51,1);
+     line-height:2rem;
+     }
+    
+}  
+@media (min-width: 992px) and (max-width: 1199px) {  
+    /*在992和1199像素之间的屏幕里,这里的样式才生效 lg*/ 
+   
+}  
+@media (min-width: 1200px) {  
+    /*在大于1200像素的屏幕里,这里的样式才生效*/ 
+    
+    
+}
+
 .full-screen {
     background-size: cover;
     background-position: center;
@@ -41,7 +86,7 @@
     font-size: 12px;
 }
 .new-list{
-    height: 80px;
+    height:3.5rem;
     color:#333333;
     font-size: 14px;
     margin-bottom:20px
@@ -66,23 +111,28 @@
 .new-content{
     padding-top: 41px;
 }
-.new-pic-list{
+/* .new-pic-list{
     width: 370px;height: 238px;
-}
+} */
 .new-list-date{
-    width:120px;
-    height: 30px;
+   
+    height:2rem;
     background: #F2EAE1;
     color: #877A69;
-    font-size: 14px;
+    font-size: 0.4rem;
     text-align: center;
-    line-height: 30px;
+    line-height:2rem;
+
 }
 .new-list-desc{
-    color:#333333;
-    font-size: 14px;
-    padding-right:0;
-    padding-left: 0;
+   
+   text-align: right;
+   
+font-size:1rem;
+font-family:PingFangSC-Semibold,PingFang SC;
+font-weight:600;
+color:rgba(51,51,51,1);
+line-height:2rem
 }
 .new-list-body{
     padding-right:1rem ;

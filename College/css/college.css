@@ -4,32 +4,8 @@
     background-image: url(../images/base-bg.png); 
 }
 
-.dhl .navbar {
-    padding: 0;
-}
-.zysz-sm .navbar {
-    padding: 0;
-}
 
-.dhl .navbar-light .navbar-nav .nav-link {
-    color: #FFFFFF;
-    padding: 0.8rem 2rem;
-}
-.zysz-sm .navbar-light .navbar-nav .nav-link {
-    color: #FFFFFF;
-    padding: 0.8rem 2rem;
-}
 
-.dhl  .navbar-light .navbar-nav .active>.nav-link {
-    color: #FFFFFF;
-    background-color: #BF0B01;
-    background-image: url(../images/base-bg.png);
-}
-.zysa-sm  .navbar-light .navbar-nav .active>.nav-link {
-    color: #FFFFFF;
-    background-color: #BF0B01;
-    background-image: url(../images/base-bg.png);
-}
 
 .slide-wrap{
     margin-bottom:90px
@@ -65,14 +41,10 @@
     padding: 0.5rem 1rem;
 }
 
-.college-carousel {
-    /* height: 450px; */
-}
-
 .tab-btns .nav-link {
     display: block;
     padding: .5rem 1rem;
-    color: #D50C00;
+    color: #000;
     /* font-weight: 500; */
     font-size: 1.5rem;
 }

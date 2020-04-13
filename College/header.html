@@ -1,37 +1,58 @@
-<!DOCTYPE html>
-<html lang="en">
 
+
+
+<!doctype html>
+<html lang="zh">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>山西同文职业技术学院--医学护理系</title>
     <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/college.css">
+    <link rel="stylesheet" href="font/iconfont.css">
+   
     <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/reset.css">
     <script src="./js/jquery.js"></script>
     <script src="./js/bootstrap.js"></script>
+    <script src="./js/college.js"></script>
+    
 </head>
 
 <body>
-    <!-- 红色 -->
-    <div class="container-fluid bg-header-red" style="border-bottom:1px solid #fff">
-        <div class="container " >
-          <div class="d-flex flex-column flex-md-row align-items-center" >
-            <h5 class="my-0 mr-md-auto font-weight-normal" style="width: 470px;"> <img src="images/logo/yxhlx2x.png"
-                    style="width: 100%; margin:25px 0;" /></h5>
-            <nav class="my-2 my-md-0 mr-md-3" style="padding-right: 100px;">
-                <a class="p-2" style="font-size:14px;color:#FFF;"><i class="iconfont iconhome"></i>同文主页</a>
-                <a class="p-2" style="font-size:14px;color:#FFF;"><i class="iconfont iconsearch"></i>搜索</a>
-            </nav>
+    <div class="logo">
+            <div class="container logo-con" >
+                <div class="row" >
+                    <div class="col-9 logo-l" >
+                        <img src="images/logo/yxhlx2x_1.png" />
+                    </div>
+                    <div  class="col-3 logo-r"  >
+                        <nav class="my-2 my-md-0 mr-md-3" style="">
+                            <a class="p-2" >
+                                <i class="iconfont iconhome"></i>同文主页</a>
+                            <a class="p-2">
+                                <i class="iconfont iconsearch"></i>搜索</a>
+                        </nav>
+                    </div>
+                    <div  class="col-3 logo-r-sm">
+                        <nav style="height: 100%;">
+                            <a class="" ><i class="iconfont iconsearch" ></i></a>
+                            <span class="fe" style="display: inline-block;padding: 0;margin: 0;width:1%;height:1rem;border:1px solid#fff;"></span>
+                            <a class="" ><i class="iconfont icondaohang" ></i></a>
+                        </nav>
+                    </div>
+                </div>
+        
+            </div>
 
-        </div>
-        </div>
+      
+        
     </div>
+    
+    <!-- 导航栏 -->
     <div class="container-fluid nav-container">
-        <div class="container" style="padding: 0;">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light"
-                style="background-color: #D50C00!important;background-image: url(./images/base-bg.png);">
-                <a class="navbar-brand" href="#"></a>
+        <div class="container dhl" >
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -43,8 +64,18 @@
                         <li class="nav-item active">
                             <a class="nav-link" href="#">首页 <span class="sr-only">(current)</span></a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">系部简介</a>
+                        <li class="nav-item n-more">
+                            <a class="nav-link " href="#">系部简介
+                                <i class=" xx iconfont iconshoujixiala" style="width:1.2rem;float:right;font-size:1rem;font-weight: 600;"></i>
+                                <i class=" xs iconfont " style="width:1.2rem;float:right;font-size:1rem;font-weight: 600;text-align: center;"><img  src="images/xs.png" style="display: inline-block;margin-left: 5%;"></img></i>
+                            </a>
+                            <div class="hide-con">
+                                <ul class="h-c">
+                                    <li class="c-i"><a>模拟字段1</a></li>
+                                    <li class="c-i"><a>模拟字段2</a></li>
+                                    <li class="c-i"><a>模拟字段3</a></li>
+                                </ul>
+                            </div>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">系部动态</a>
@@ -74,69 +105,37 @@
         </div>
     </div>
 
-
-
-    <!-- 白色 -->
-    <!-- <div class="container-fluid bg-header-white">
-        <div class="container ">
-            <div class="d-flex flex-column flex-md-row align-items-center  bg-white ">
-                <h5 class="my-0 mr-md-auto font-weight-normal" style="width: 470px;"> <img src="images/logo/yxhlx2x.png"
-                        style="width: 100%; margin:25px 0;" /></h5>
-                <nav class="my-2 my-md-0 mr-md-3" style="padding-right: 100px;">
-                    <a class="p-2" style="font-size:14px;color:#333;"><i class="iconfont iconhome"></i>同文主页</a>
-                    <a class="p-2" style="font-size:14px;color:#333;"><i class="iconfont iconsearch"></i>搜索</a>
-                </nav>
-
-            </div>
-        </div>
-    </div>
-
-    <div class="container-fluid nav-container">
-        <div class="container" style="padding: 0;">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light"
-                style="background-color: #D50C00!important;background-image: url(./images/base-bg.png);">
-                <a class="navbar-brand" href="#"></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse"
-                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item ">
-                            <a class="nav-link" href="#">首页 <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">系部简介</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">系部动态</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">专业建设</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">系部公告</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">党团工作</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">学生工作</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">教育教学</a>
-                        </li>
-                    </ul>
-                    <form class="form-inline my-2 my-lg-0" style="display: none;">
-                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                    </form>
-                </div>
-            </nav>
-        </div>
-    </div> -->
+    <script>
+        $(function(){
+            $(".xs").hide();
+            $(".xx").show();
+             $("li.n-more").hover(function(){
+                 
+                 $(this).children('.hide-con').fadeIn(500);
+                 $(".xx").hide();
+                 $(".xs").show();
+                 $(this).children('.hide-con').hover(function(){
+                     $(this).addClass('xs');
+                 },function(){
+                     $(this).children('.hide-con').hide();
+                     $(".xs").hide();
+                     $(".xx").show();
+                 });
+             },function(){
+                 $(this).children('.hide-con').fadeOut(500);
+                 $(this).children('.hide-con').hover(function(){
+                     $(this).addClass('xs');
+                 },function(){
+                     $(this).hide();
+                     $(".xs").hide();
+                     $(".xx").show();
+                 });
+                 $(".xs").hide();
+                 $(".xx").show();
+             })
+        })
+ 
+    </script>
 
 </body>
 
