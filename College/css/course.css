@@ -1,0 +1,145 @@
+.course-pos{
+    position: relative;
+}
+.course-right{
+    background: #fff;
+    position: absolute;
+    z-index: 1;
+    min-width: 711px;
+    min-height: 380px;
+    right: 7px;
+    padding: 40px 60px 35px 142px;
+}
+.course-right h3{
+    font-size: 30px;
+    color: #333;
+    font-weight: 400;
+}
+.course-right h4{
+    font-size: 14px;
+    font-weight: 400;
+}
+.line{
+    width: 90px;
+    height: 2px;
+    background: #333333;
+    margin-bottom: 34px;
+    margin-top:20px
+}
+.course-right p{
+    color: #666666;
+    font-size: 14px;
+   
+}
+.course-left{
+    position: absolute;
+    z-index: 2;
+    width: 488px;
+    min-height: 300px;
+    top:43px
+}
+.course-left img{
+    width: 100%;
+}
+.course-desc{
+    background: #F5F5F5;
+    min-height: 494px;
+    padding-top: 55px;
+}
+.course-video{
+    padding-top:90px;
+    min-height: 397px;
+    background: #fff;
+}
+
+.new-tab{
+    padding-bottom: 20px;
+  }
+  .new-tab a{
+      color: #302C48;
+      font-size: 24px;
+      margin-right:60px;
+      margin-bottom:20px
+  }
+  .new-tab a:hover{
+      text-decoration: none;
+  }
+  .bline{
+      width:96px;height:4px;background:#D50C00;position:relative;left:0;bottom:-20px;
+      display: none;
+  }
+  .active a{
+      color: #D50C00;
+  }
+  .bline.show{
+      display: block;
+      color: #D50C00;
+  }
+  .course-btn{
+      min-width: 167px;
+      min-height: 60px;
+      background:rgba(242,234,225,0.2);
+      border-radius:8px;
+      border:1px solid rgba(135,122,105,1);
+      line-height: 60px;
+      color:#877A69;
+      font-size:14px;
+      margin:31px 18px 0 0;
+      box-sizing: border-box;
+  }
+  .bigteacher,.bigtrain{
+      background: #F2EAE1;
+      min-height: 725px;
+      padding-top: 59px;
+  }
+  .teachertop{
+      width: 715px;
+      height: 132px;
+      background: url("../images/coursebg.png") no-repeat top;
+      background-size:contain;
+      text-align: center; 
+      letter-spacing: 12px;
+      padding-right: 5px;
+      margin-bottom: 40px;
+  }
+  .teachertop h5{
+      line-height: 80px;
+      color: #877A69;
+      font-size: 24px;
+      margin-left: 5px;
+  }
+  .teachertop p{
+      line-height: 10px;
+      color: #877A69;
+      font-size: 14px;
+  }
+  .teacheravatr{
+      width: 287px;
+      height: 360px;
+      text-align: center;
+      
+  }
+  .teacheravatr img{
+     width: 100%;
+     height: 100%;;
+     margin-bottom: 20px;
+  }
+  .bigtrain{
+      background: #fff;
+  }
+  .trainlist{
+      width: 285px;
+      height: 285px;
+      margin:20px;
+      padding: 0;
+  }
+  .trainlist img{
+      width: 100%;
+      height: 100%;
+  }
+  @media screen and (max-width: 990px){
+    .course-left{
+        display: none;
+    }
+}
+  

@@ -1,0 +1,33 @@
+.my-login{
+    background: url("../images/loginbg.png") no-repeat top;
+    background-size: 100% 100%;
+    height: 100vh;
+    padding-top:7%;
+    
+}
+.right{
+    background: #fff;
+    padding-top:130px
+}
+
+.login-btn,.login-btn-admin{
+    width: 178px;
+    height: 40px;
+    background-color:#D50C00;
+    border-radius: 20px;
+    color:#fff;
+    margin-top:10%;
+}
+.login-btn-admin{
+    background-color:#2E5FE8
+}
+.my-login-admin{
+    background: url("../images/adminbg.png") no-repeat top;
+    background-size: 100% 100%;
+    height: 100vh;
+    padding-top:7%;
+    
+}
+
+
+

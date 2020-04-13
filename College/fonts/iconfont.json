@@ -1,0 +1,163 @@
+{
+  "id": "1718670",
+  "name": "school",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "14025427",
+      "name": "home",
+      "font_class": "home",
+      "unicode": "e6c9",
+      "unicode_decimal": 59081
+    },
+    {
+      "icon_id": "14025428",
+      "name": "right",
+      "font_class": "right",
+      "unicode": "e6ca",
+      "unicode_decimal": 59082
+    },
+    {
+      "icon_id": "14025429",
+      "name": "search",
+      "font_class": "search",
+      "unicode": "e6cb",
+      "unicode_decimal": 59083
+    },
+    {
+      "icon_id": "14025430",
+      "name": "left",
+      "font_class": "left",
+      "unicode": "e6cc",
+      "unicode_decimal": 59084
+    },
+    {
+      "icon_id": "13768713",
+      "name": "关闭",
+      "font_class": "guanbi",
+      "unicode": "e6c8",
+      "unicode_decimal": 59080
+    },
+    {
+      "icon_id": "13768616",
+      "name": "手机下拉",
+      "font_class": "shoujixiala",
+      "unicode": "e6c5",
+      "unicode_decimal": 59077
+    },
+    {
+      "icon_id": "13768617",
+      "name": "手机未展开",
+      "font_class": "shoujiweizhankai",
+      "unicode": "e6c6",
+      "unicode_decimal": 59078
+    },
+    {
+      "icon_id": "13768618",
+      "name": "导航",
+      "font_class": "daohang",
+      "unicode": "e6c7",
+      "unicode_decimal": 59079
+    },
+    {
+      "icon_id": "13766910",
+      "name": "党政机构",
+      "font_class": "dangzhengjigou",
+      "unicode": "e6c1",
+      "unicode_decimal": 59073
+    },
+    {
+      "icon_id": "13752392",
+      "name": "教学机构",
+      "font_class": "jiaoxuejigou",
+      "unicode": "e6c2",
+      "unicode_decimal": 59074
+    },
+    {
+      "icon_id": "13752400",
+      "name": "学院新闻",
+      "font_class": "xueyuanxinwen",
+      "unicode": "e6c3",
+      "unicode_decimal": 59075
+    },
+    {
+      "icon_id": "13752401",
+      "name": "学院概况",
+      "font_class": "xueyuangaikuang",
+      "unicode": "e6c4",
+      "unicode_decimal": 59076
+    },
+    {
+      "icon_id": "13752019",
+      "name": "ABOUT",
+      "font_class": "ABOUT1",
+      "unicode": "e6bd",
+      "unicode_decimal": 59069
+    },
+    {
+      "icon_id": "13752020",
+      "name": "news",
+      "font_class": "news1",
+      "unicode": "e6be",
+      "unicode_decimal": 59070
+    },
+    {
+      "icon_id": "13752024",
+      "name": "school",
+      "font_class": "school1",
+      "unicode": "e6bf",
+      "unicode_decimal": 59071
+    },
+    {
+      "icon_id": "13752025",
+      "name": "service",
+      "font_class": "service1",
+      "unicode": "e6c0",
+      "unicode_decimal": 59072
+    },
+    {
+      "icon_id": "13751961",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e6b2",
+      "unicode_decimal": 59058
+    },
+    {
+      "icon_id": "13751965",
+      "name": "通知",
+      "font_class": "tongzhi",
+      "unicode": "e6b6",
+      "unicode_decimal": 59062
+    },
+    {
+      "icon_id": "13751966",
+      "name": "组",
+      "font_class": "zu",
+      "unicode": "e6b7",
+      "unicode_decimal": 59063
+    },
+    {
+      "icon_id": "13751967",
+      "name": "icon-right",
+      "font_class": "icon-right",
+      "unicode": "e6b8",
+      "unicode_decimal": 59064
+    },
+    {
+      "icon_id": "13751968",
+      "name": "新闻",
+      "font_class": "xinwen",
+      "unicode": "e6b9",
+      "unicode_decimal": 59065
+    },
+    {
+      "icon_id": "13751970",
+      "name": "icon-left",
+      "font_class": "icon-left",
+      "unicode": "e6bb",
+      "unicode_decimal": 59067
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+.header{
+    background-color: #877A69;
+    padding: 0;
+    background-image: url("../images/debut-light.png");
+}
+.navbar-light .navbar-nav .active>.nav-link {
+    color: #FFFFFF;
+    background-color: #7A6D5D
+}
+.bg-header-red{
+    background:#D50C00 url("../images/debut-light.png");
+}
+.bg-header-grid{
+    background: #877A69 url("../images/debut-light.png");
+}
+.bg-header-white{
+    background: #FFFFFF;
+}
+.nav-container {
+    background-color: #D50C00;
+    padding: 0;
+    background-image: url(../images/base-bg.png); 
+}
+.header-right a{
+    font-size: 14px;
+    color: #333;
+}
+.navbar {
+    padding: 0;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #FFFFFF;
+    padding: 0.8rem 2rem;
+}
+
+.navbar-light .navbar-nav .active>.nav-link {
+    color: #FFFFFF;
+    background-color: #BF0B01;
+    background-image: url(../images/base-bg.png);
+}
+
+

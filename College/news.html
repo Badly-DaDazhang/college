@@ -1,0 +1,978 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>山西同文职业技术学院--医学护理系</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/college.css">
+    <link rel="stylesheet" href="css/new.css">
+    <link rel="stylesheet" href="fontcss/iconfont.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <script src="./js/jquery.js"></script>
+    <script src="./js/bootstrap.js"></script>
+    <style>
+        /* Make the image fully responsive */
+        .carousel-inner img {
+            width: 100%;
+            height: 100%;
+        }
+
+        .slide-wrap {
+            padding: 0;
+            /* min-height:648px */
+        }
+
+        .slide-wrap img {
+            width: 100%;
+        }
+
+       html{font-size:100%;} 
+       .logo .row div {
+           padding:0;
+       }
+       .logo .row div img{
+           width: 100%;
+            margin: 1.5rem 0;
+            display:inline-block;width: 55%;
+       }
+       .logo .row div.logo-r{
+           padding-top:2rem;
+       }
+       .logo .row div.logo-r-sm{
+           display: none;
+           }
+       div.dhl{
+           padding:0 !important;
+       }
+       div.dhl .navbar{
+           background-color: #D50C00!important;
+           background-image: url(./images/base-bg.png);
+           margin:0 !important;
+           padding:0 !important;
+       }
+       @media (max-width: 767px) {  
+           /*在小于768像素的屏幕里,这里的样式才生效 xs*/  
+           .logo .row div img {
+              margin:0.8rem 0 0.8rem 1rem !important;
+              
+            display:inline-block;
+            width: 100%;
+     
+           }
+           .logo .row div.logo-r{
+           display: none;
+           }
+           .logo .row div.logo-r-sm{
+               display:block;
+           }
+
+           .zysz{
+               display: none;
+           }
+           .zysz-sm span.tit{
+ 
+               font-size:1rem;
+               font-family:PingFangSC-Regular,PingFang SC;
+               font-weight:400;
+               color:rgba(255,255,255,1) !important;
+           }
+           .trends-tittle ul li{
+               width:5rem !important;
+           }
+           .trends-tittle ul li a{
+               font-size:1rem !important;
+               padding:0 !important;
+               text-align: center;
+           }
+       }  
+       @media (min-width: 768px) and (max-width: 991px) {  
+           /*在768和991像素之间的屏幕里,这里的样式才生效 md */ 
+           .logo .row div img {
+              margin-left:1rem !important;
+              
+            display:inline-block;
+            width: 100%;
+     
+           }
+           .logo .row div.logo-r{
+           padding-top:1.5rem;
+       }
+           .zysz{
+               display: none;
+           }
+           .zysz-sm span.tit{
+ 
+               font-size:1rem;
+               font-family:PingFangSC-Regular,PingFang SC;
+               font-weight:400;
+               color:rgba(255,255,255,1) !important;
+           }
+
+          
+
+          
+           
+       }  
+       @media (min-width: 992px) and (max-width: 1199px) {  
+           /*在992和1199像素之间的屏幕里,这里的样式才生效 lg*/ 
+           .zysz-sm{
+               display: none;
+           }
+           .zysz .zysz-l{
+                   background:url("images/index/zysz_bg.png");
+                   background-repeat: no-repeat;
+                   background-size: 100% 100%;
+
+                   height: 9rem; 
+                   position: relative;
+               }
+               
+               .zysz .zysz-l span.c-l{
+                   width:48px;
+                   height:66px;
+                   font-size:1.5rem;
+                   font-family:PingFangSC-Regular,PingFang SC;
+                   font-weight:400;
+                   color:rgba(255,255,255,1);
+                   line-height:25px;
+
+                   position:absolute;
+                   top:35%;
+                   left:31px;
+               }
+               .zysz .zysz-l span.c-rb{
+                   width:49px;
+                   height:20px;
+
+                   font-size:0.5rem;
+                   font-family:PingFangSC-Regular,PingFang SC;
+                   font-weight:400;
+                   color:rgba(255,255,255,1);
+                   line-height:15px;
+
+                   position:absolute;
+                   right:3%;
+                   bottom:5%;
+                   
+               } 
+               .zysz .zysz-r{
+               
+                   background-color:#fff;
+                   padding:0;
+                   
+               }
+               .zysz-r  .r-con{
+                   width:99%;
+                   margin-left:1%;
+                   background-color:#f2f0f3;
+                   margin:0 !important; 
+               }
+               .zysz-r  .r-con div{
+                   height:4.5rem;
+                   line-height:4.5rem;
+               }
+               
+               
+       }  
+       @media (min-width: 1200px) {  
+           /*在大于1200像素的屏幕里,这里的样式才生效*/ 
+           .zysz .zysz-l{
+                   background:url("images/index/zysz_bg.png");
+                   background-repeat: no-repeat;
+                   background-size: 100% 100%;
+
+                   height: 9rem; 
+                   position: relative;
+               }
+               .zysz .zysz-l span.c-l{
+                   width:48px;
+                   height:66px;
+                   font-size:1.5rem;
+                   font-family:PingFangSC-Regular,PingFang SC;
+                   font-weight:400;
+                   color:rgba(255,255,255,1);
+                   line-height:25px;
+
+                   position:absolute;
+                   top:35%;
+                   left:31px;
+               }
+               .zysz .zysz-l span.c-rb{
+                   width:49px;
+                   height:20px;
+
+                   font-size:0.5rem;
+                   font-family:PingFangSC-Regular,PingFang SC;
+                   font-weight:400;
+                   color:rgba(255,255,255,1);
+                   line-height:15px;
+
+                   position:absolute;
+                   right:3%;
+                   bottom:5%;
+                   
+               } 
+               .zysz .zysz-r{
+               
+                   background-color:#fff;
+                   padding:0;
+                   
+               } 
+               .zysz-r  .r-con{
+                   width:99%;
+                   margin-left:1%;
+                   background-color:#f2f0f3;
+                   
+               }
+               .zysz-r  .r-con div{
+                   height:4.5rem;
+                   line-height:4.5rem;
+               }
+               .zysz-sm{
+                   display: none;
+               }
+
+               
+           
+       }
+       
+       
+       .zysz-r  .r-con div a{
+           text-decoration: none;
+           font-size:0.9rem;
+           font-family:PingFangSC-Regular,PingFang SC;
+           font-weight:400;
+           color:rgba(51,51,51,1);
+           line-height:0.8rem;
+           margin-left:22%;
+       }
+       .zysz-r  .r-con div a:hover{
+           color: #007bff;
+       }
+       span.s1,span.s2{
+           margin:0;
+       }
+
+       /* trends */
+
+       .trends .trends-tittle ul li a{
+          
+        
+           font-size:1.5rem;
+           font-family:PingFangSC-Medium,PingFang SC;
+           font-weight:500;
+           color:rgba(213,12,0,1);
+           line-height:2rem;
+       }
+       .trends .tab-content{
+           min-height:20rem;
+       }
+    
+       /* .tw-person */
+       .tw-people   .p-t{
+        margin-top:1rem;
+        font-size:36px;
+        font-family:PingFangSC-Semibold,PingFang SC;
+        font-weight:600;
+        color:rgba(51,51,51,1);
+        line-height:50px;
+        margin-bottom: 2rem;
+       }
+       .tw-people  .p-con .p-left .p-b p.p1{
+      
+        height:1.5rem;
+        font-size:1.5rem;
+        font-family:PingFangSC-Semibold,PingFang SC;
+        font-weight:600;
+        color:rgba(51,51,51,1);
+        margin-bottom: 1rem;
+        /* line-height:50px; */
+       }
+       .tw-people .p-con .p-left .p-b p.p2{
+      
+        font-size:0.9rem;
+        font-family:PingFangSC-Regular,PingFang SC;
+        font-weight:400;
+        color:rgba(102,102,102,1);
+       
+        }
+       
+      /* 脚部 footer */
+      .footer{
+       background-image: url(./images/contact-bg.png); padding: 4rem 0 0;
+      }
+      .footer-link{
+       padding: 2em; margin-top: 4rem; color: #FFFFFF; background:rgba(0, 0, 0, 0.4)
+      }
+
+
+
+    </style>
+</head>
+
+<body>
+    <div class="container logo" >
+        <div class="row">
+            <div class="col-9 logo-l">
+                <img src="images/logo/yxhlx2x.png" />
+                
+            </div>
+            <div  class="col-3 logo-r"  >
+                <nav class="my-2 my-md-0 mr-md-3" style="height: 2rem;float: right;">
+                    <a class="p-2" style="font-size:14px;color:#D50C00;"><i class="iconfont"> &#xe66c;</i>同文主页</a>
+                    <a class="p-2" style="font-size:14px;color:#D50C00;"><i class="iconfont">&#xe612;</i>搜索</a>
+                </nav>
+            </div>
+            <div  class="col-3 logo-r-sm"  style="background-color: #877A69;height: 3.5rem;">
+                <nav style="height: 100%;">
+                    <a class="" style="text-decoration:none;display: inline-block;width: 45%;height: 100%;text-align: center;"><i class="iconfont" style="display:inline-block;font-size:1.5rem;font-weight:600;line-height: 3.5rem;color: #fff;"> &#xe66c;</i></a>
+                    <a class="" style="text-decoration:none;display: inline-block;width: 45%;height: 100%;text-align: center;"><i class="iconfont" style="display:inline-block;font-size:1.5rem;font-weight:600;line-height: 3.5rem;color: #fff;">&#xe612;</i></a>
+                </nav>
+            </div>
+        </div>
+
+    </div>
+    <!-- 导航栏 -->
+    <div class="container-fluid nav-container">
+        <div class="container dhl" >
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">首页 <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">系部简介</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">系部动态</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">专业建设</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">系部公告</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">党团工作</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">学生工作</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">教育教学</a>
+                        </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0" style="display: none;">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- 轮播-->
+    <div class="container-fluid banner" style="padding:0;margin-bottom:30px;">
+        <div id="demo" class="carousel slide" data-ride="carousel">
+
+            <!-- 指示符 -->
+            <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+                <li data-target="#demo" data-slide-to="2"></li>
+            </ul>
+
+            <!-- 轮播图片 -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/new/huli.png">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://static.runoob.com/images/mix/img_nature_wide.jpg">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://static.runoob.com/images/mix/img_mountains_wide.jpg">
+                </div>
+            </div>
+
+            <!-- 左右切换按钮 -->
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+
+        </div>
+    </div>
+     <!-- 综合新闻 -->
+     <div class="trends" style="min-height: 520px;">
+        <div class="container">
+            <div class="trends-tittle" style="border-bottom: 1px solid #979797; margin-bottom: 1rem;">
+
+                <a href="" class=" btn btn-link float-right">更多 ></a>
+                <!-- 导航 -->
+                <ul class="nav nav-pills tab-btns  " role="tablist" style="position: relative;">
+                    <li role="presentation" class="active nav-item">
+                        <a class="nav-link active"  href="#zh_news" aria-controls="zh_news" 
+                        role="tab" data-toggle="tab">综合新闻</a>
+
+                    </li>
+                    <li role="presentation" class="nav-item">
+                        <a class="nav-link"  href="#kx_news" aria-controls="kx_news"
+                         role="tab" data-toggle="tab">新闻快讯</a>
+                     
+                    </li>
+                    <!-- <li style="line-height: 60px;position: absolute;right: 0;color: #333333;font-size: 12px;">
+                        更多>
+                    </li> -->
+                </ul>
+
+            </div>
+            <!-- 带显示效果的内容 -->
+            <div class="tab-content ">
+                <div role="tabpanel" class="tab-pane fade show active" id="zh_news" aria-labelledby="pills-zh-tab">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="card">
+                                <img src="images/new/zh_new.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">致敬逆行者 “暖春”助学再出发 ——同文学院推出“暖春”行动 为山西援鄂医务人员献爱心</h5>
+                                    <p class="card-text ">“你,逆行的背影,牵动着多少颗心。伸出你那温暖的手, 去托起生命。一纸请战书,满满的红手印,生死线上方显你的
+                                        深情……”一场突如其来的疫情，将最美医护逆行的背影永 远定格在人们心中。2020 年春节，从武汉开始、从中国的中
+                                        部开始，一场空前的战役打响！“坚决打赢疫情防控阻击战”， 习总书记的话…
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="media ">
+                                <div class="mr-3 text-center text-white new-tip">
+                                    <ul>
+                                        <li>24</li>
+                                        <li>2020/02</li>
+                                    </ul>
+                                </div>
+                                <div class="media-body" >
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                                </div>
+                            </div>
+                            <div class="media ">
+                                <div class="mr-3 text-center text-white new-tip">
+                                    <ul>
+                                        <li>24</li>
+                                        <li>2020/02</li>
+                                    </ul>
+                                </div>
+                                <div class="media-body" >
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                                </div>
+                            </div>
+                            <div class="media ">
+                                <div class="mr-3 text-center text-white new-tip">
+                                    <ul>
+                                        <li>24</li>
+                                        <li>2020/02</li>
+                                    </ul>
+                                </div>
+                                <div class="media-body">
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                                </div>
+                            </div>
+                            <div class="media ">
+                                <div class="mr-3 text-center text-white new-tip">
+                                    <ul>
+                                        <li>24</li>
+                                        <li>2020/02</li>
+                                    </ul>
+                                </div>
+                                <div class="media-body">
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                                </div>
+                            </div>
+                            <div class="media">
+                                <div class="mr-3 text-center text-white new-tip">
+                                    <ul>
+                                        <li>24</li>
+                                        <li>2020/02</li>
+                                    </ul>
+                                </div>
+                                <div class="media-body">
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                                </div>
+                            </div>
+                            <div class="media">
+                                <div class="mr-3 text-center text-white new-tip">
+                                    <ul>
+                                        <li>24</li>
+                                        <li>2020/02</li>
+                                    </ul>
+                                </div>
+                                <div class="media-body" >
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div role="tabpanel" class="tab-pane fade" id="pkx_news" aria-labelledby="pills-kx-tab">2</div>
+            </div>
+
+        </div>
+    </div>
+   
+   
+    <!-- 党群工作 -->
+    <div class=" trends" style="background: #F5F5F5;padding-top:70px">
+        <div class="container">
+            <div class="trends-tittle" style="border-bottom: 1px solid #979797; margin-bottom: 1rem;">
+
+                <a href="" class=" btn btn-link float-right">更多 ></a>
+                <!-- 导航 -->
+                <ul class="nav nav-pills tab-btns  " role="tablist" style="position: relative;">
+                    <li role="presentation" class="active nav-item">
+                        <a class="nav-link active"  href="#school" aria-controls="zh_news" 
+                        role="tab" data-toggle="tab">菁菁校园</a>
+
+                    </li>
+                    <li role="presentation" class="nav-item">
+                        <a class="nav-link"  href="#work" aria-controls="kx_news"
+                         role="tab" data-toggle="tab">党群工作</a>
+                     
+                    </li>
+                    <li role="presentation" class="nav-item">
+                        <a class="nav-link"  href="#info" aria-controls="kx_news"
+                         role="tab" data-toggle="tab">通知公告</a>
+                     
+                    </li>
+                </ul>
+
+            </div>
+            <!-- 带显示效果的内容 -->
+            <div class="tab-content">
+                <div role="tabpanel" class="tab-pane  fade show active" id="school">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="media new-list">
+                                <div class="mr-3 text-center text-white new-tip">
+                                    <ul>
+                                        <li>24</li>
+                                        <li>2020/02</li>
+                                    </ul>
+                                </div>
+                                <div class="media-body" style="line-height: 33px;">
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                                </div>
+                            </div>
+                            <div class="media new-list">
+                                <div class="mr-3 text-center text-white new-tip">
+                                    <ul>
+                                        <li>24</li>
+                                        <li>2020/02</li>
+                                    </ul>
+                                </div>
+                                <div class="media-body" style="line-height: 33px;">
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                                </div>
+                            </div>
+                            <div class="media new-list">
+                                <div class="mr-3 text-center text-white new-tip">
+                                    <ul>
+                                        <li>24</li>
+                                        <li>2020/02</li>
+                                    </ul>
+                                </div>
+                                <div class="media-body" style="line-height: 33px;">
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="media new-list">
+                                <div class="mr-3 text-center text-white new-tip">
+                                    <ul>
+                                        <li>24</li>
+                                        <li>2020/02</li>
+                                    </ul>
+                                </div>
+                                <div class="media-body" style="line-height: 33px;">
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                                </div>
+                            </div>
+                            <div class="media new-list">
+                                <div class="mr-3 text-center text-white new-tip">
+                                    <ul>
+                                        <li>24</li>
+                                        <li>2020/02</li>
+                                    </ul>
+                                </div>
+                                <div class="media-body" style="line-height: 33px;">
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                                </div>
+                            </div>
+                            <div class="media new-list">
+                                <div class="mr-3 text-center text-white new-tip">
+                                    <ul>
+                                        <li>24</li>
+                                        <li>2020/02</li>
+                                    </ul>
+                                </div>
+                                <div class="media-body" style="line-height: 33px;">
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="media new-list">
+                                <div class="mr-3 text-center text-white new-tip">
+                                    <ul>
+                                        <li>24</li>
+                                        <li>2020/02</li>
+                                    </ul>
+                                </div>
+                                <div class="media-body" style="line-height: 33px;">
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                                </div>
+                            </div>
+                            <div class="media new-list">
+                                <div class="mr-3 text-center text-white new-tip">
+                                    <ul>
+                                        <li>24</li>
+                                        <li>2020/02</li>
+                                    </ul>
+                                </div>
+                                <div class="media-body" style="line-height: 33px;">
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                                </div>
+                            </div>
+                            <div class="media new-list">
+                                <div class="mr-3 text-center text-white new-tip">
+                                    <ul>
+                                        <li>24</li>
+                                        <li>2020/02</li>
+                                    </ul>
+                                </div>
+                                <div class="media-body" style="line-height: 33px;">
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div role="tabpanel" class="tab-pane fade" id="work">work</div>
+                <div role="tabpanel" class="tab-pane fade" id="info">info</div>
+            </div>
+
+        </div>
+    </div>
+    <!-- 图片新闻 -->
+    <div class="trends" style="background: #fff;padding-top:70px">
+       
+        <div class="container">
+            <div class="trends-tittle" style="border-bottom: 1px solid #979797; margin-bottom: 1rem;">
+    
+                    <a href="" class=" btn btn-link float-right">更多 ></a>
+                    <!-- 导航 -->
+                    <ul class="nav nav-pills tab-btns  " role="tablist" style="position: relative;">
+                        <li role="presentation" class="active nav-item">
+                            <a class="nav-link active"  href="#newpic" aria-controls="zh_news" 
+                            role="tab" data-toggle="tab">图片新闻</a>
+    
+                        </li>
+                        <li role="presentation" class="nav-item">
+                            <a class="nav-link"  href="#newvideo" aria-controls="kx_news"
+                             role="tab" data-toggle="tab">视频新闻</a>
+                         
+                        </li>
+                       
+                    </ul>
+    
+            </div>
+               
+            <!-- 带显示效果的内容 -->
+            <div class="tab-content ">
+                <div role="tabpanel" class="tab-pane  in active" id="newpic">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card new-pic" style="width: 370px;">
+                                <div class="new-pic-list">
+                                    <img src="images/new/p_news1.png" class="card-img-top" alt="...">
+                                </div>
+                                <div class="card-body">
+                                    <div class="row text-right">
+                                        <div class="col-md-6 new-list-date">2019/09/20</div>
+                                        <div class="col-md-6 new-list-desc">第十一届校园文化节</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card new-pic"  style="width: 370px;">
+                                <div class="new-pic-list">
+                                    <img src="images/new/p_news2.png" class="card-img-top" alt="...">
+                                </div>
+                                <div class="card-body">
+                                    <div class="row text-right">
+                                        <div class="col-md-6 new-list-date">2019/09/20</div>
+                                        <div class="col-md-6 new-list-desc">第十一届校园文化节</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card new-pic" >
+                                <div class="new-pic-list">
+                                    <img src="images/new/p_news3.png" class="card-img-top" alt="...">
+                                </div>
+                                <div class="card-body">
+                                    <div class="row text-right">
+                                        <div class="col-md-6 new-list-date">2019/09/20</div>
+                                        <div class="col-md-6 new-list-desc">第十一届校园文化节</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div role="tabpanel" class="tab-pane fade" id="newvideo">work</div>
+            </div>
+
+        </div>
+    </div>
+    <!-- 同文人物 tw-people -->
+    <div class="tw-people trends" style="background-color: #F2EAE1;">
+        <div class="container">
+            <div class="trends-tittle" style="border-bottom: 1px solid #979797; margin-bottom: 1rem;">
+    
+                <a href="" class=" btn btn-link float-right">更多 ></a>
+                <!-- 导航 -->
+                <ul class="nav nav-pills tab-btns  " role="tablist" style="position: relative;">
+                    <li role="presentation" class="active nav-item">
+                        <a class="nav-link active"  href="" aria-controls="zh_news" 
+                        role="tab" data-toggle="tab">同文人物</a>
+                    </li>
+                </ul>
+
+            </div>
+            <div class="row p-con" >
+                <div class="col-lg-6  col-md-6 col-xs-12 col-sm-12 p-left">
+                    <div class="p-t">
+                        <span><</span>
+                        <span>></span>
+                    </div>
+                  
+                    <div class="p-b">
+                        <p class="p1">师德师风|路华普——师之五德 </p>
+                        <p class="p2">何谓师德，教师应具有什么样的品德，这是每位教师一生都应思考的问题。在我执教十几年的生涯中，我也一直在苦苦追寻着问题的答案，终于在一个夜深人静的夜晚，仰望那深邃的星空，我找到了问题的答案。作为教师应具备五种品德：一为正，二为爱，三为责，四为献，五为忍。</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-xs-12 col-sm-12 p-right">
+                    <div class="row">
+                        <div class="col-lg-6  col-md-6 col-xs-12 col-sm-12 " style="width: 287px;height:360px;"><img style="display: inline-block; width: 100%;" src="images/new/t1.png"></div>
+                        <div class="col-lg-6 col-md-6 col-xs-12 col-sm-12" style="width: 287px;height:360px;"><img style="display: inline-block; width: 100%;" src="images/new/t2.png"></div>
+                    </div>
+                </div>x
+            </div>
+        </div>
+    </div>
+    <!-- 同文大讲堂 -->
+    <div class=" trends " style="background: #fff;padding-top:70px">
+        <div class="container">
+            <div class="trends-tittle" style="border-bottom: 1px solid #979797; margin-bottom: 1rem;">
+    
+                <a href="" class=" btn btn-link float-right">更多 ></a>
+                <!-- 导航 -->
+                <ul class="nav nav-pills tab-btns  " role="tablist" style="position: relative;">
+                    <li role="presentation" class="active nav-item">
+                        <a class="nav-link active"  href="#newpic" aria-controls="zh_news" 
+                        role="tab" data-toggle="tab">同文大讲堂</a>
+
+                    </li>
+                    <li role="presentation" class="nav-item">
+                        <a class="nav-link"  href="#newvideo" aria-controls="kx_news"
+                         role="tab" data-toggle="tab">职业培训</a>
+                     
+                    </li>
+                   
+                </ul>
+
+        </div>
+            <!-- 带显示效果的内容 -->
+            <div class="tab-content new-content">
+                <div role="tabpanel" class="tab-pane  in active" id="aritcle">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="media new-list">
+                                <div class="mr-3 text-center text-white new-tip">
+                                    <ul>
+                                        <li>24</li>
+                                        <li>2020/02</li>
+                                    </ul>
+                                </div>
+                                <div class="media-body" style="line-height: 33px;">
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                                </div>
+                            </div>
+                            <div class="media new-list">
+                                <div class="mr-3 text-center text-white new-tip">
+                                    <ul>
+                                        <li>24</li>
+                                        <li>2020/02</li>
+                                    </ul>
+                                </div>
+                                <div class="media-body" style="line-height: 33px;">
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                                </div>
+                            </div>
+                            <div class="media new-list">
+                                <div class="mr-3 text-center text-white new-tip">
+                                    <ul>
+                                        <li>24</li>
+                                        <li>2020/02</li>
+                                    </ul>
+                                </div>
+                                <div class="media-body" style="line-height: 33px;">
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="media new-list">
+                                <div class="mr-3 text-center text-white new-tip">
+                                    <ul>
+                                        <li>24</li>
+                                        <li>2020/02</li>
+                                    </ul>
+                                </div>
+                                <div class="media-body" style="line-height: 33px;">
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                                </div>
+                            </div>
+                            <div class="media new-list">
+                                <div class="mr-3 text-center text-white new-tip">
+                                    <ul>
+                                        <li>24</li>
+                                        <li>2020/02</li>
+                                    </ul>
+                                </div>
+                                <div class="media-body" style="line-height: 33px;">
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                                </div>
+                            </div>
+                            <div class="media new-list">
+                                <div class="mr-3 text-center text-white new-tip">
+                                    <ul>
+                                        <li>24</li>
+                                        <li>2020/02</li>
+                                    </ul>
+                                </div>
+                                <div class="media-body" style="line-height: 33px;">
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="media new-list">
+                                <div class="mr-3 text-center text-white new-tip">
+                                    <ul>
+                                        <li>24</li>
+                                        <li>2020/02</li>
+                                    </ul>
+                                </div>
+                                <div class="media-body" style="line-height: 33px;">
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                                </div>
+                            </div>
+                            <div class="media new-list">
+                                <div class="mr-3 text-center text-white new-tip">
+                                    <ul>
+                                        <li>24</li>
+                                        <li>2020/02</li>
+                                    </ul>
+                                </div>
+                                <div class="media-body" style="line-height: 33px;">
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                                </div>
+                            </div>
+                            <div class="media new-list">
+                                <div class="mr-3 text-center text-white new-tip">
+                                    <ul>
+                                        <li>24</li>
+                                        <li>2020/02</li>
+                                    </ul>
+                                </div>
+                                <div class="media-body" style="line-height: 33px;">
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div role="tabpanel" class="tab-pane fade" id="profession">work</div>
+            </div>
+
+        </div>
+    </div>
+    <!-- 脚部 footer -->
+   <div class="footer" >
+    <!-- <div class="container" > -->
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                    <p style="color: #FFFFFF; font-size: 1.2rem;">联系我们</p>
+                    <p style="font-size: 2.5rem; color: #D50C00;margin-top: 1rem;">CONTACT US</p>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12" style="color: #FFFFFF;">
+                    <span style="font-size: 0.7rem;">联系电话</span> <br>
+                    0354-5584115
+                    <p></p>
+                    <span style="font-size: 0.7rem;">邮箱</span> <br>
+                    hulixizhuhong@163.com
+                </div>
+            </div>
+        </div>
+    <!-- </div> -->
+    <div class="footer-link">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-8 col-md  footertext" style="min-width: 80px;">
+                    <h6 class="text-white">友情链接:</h5>
+                </div>
+                <div class="col-8 col-md footertext">
+                    <a href="#">中国工业机器人产业联盟</a>
+                </div>
+                <div class="col-8 col-md col-lg footertext">
+                    <a href="#">中国工业机器人产业联盟</a>
+                </div>
+                <div class="col-9 col-md footertext" style="min-width: 200px;">
+                    <a href="#">北京华航唯实机器人科技有限公司</a>
+                </div>
+                <div class="col-8 col-md footertext">
+                    <a href="#">山西通用航空产业发展研究院</a>
+                </div>
+                <div class="col-8 col-md footertext">
+                    <a href="#">中国通用航空网</a>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row credits">
+                <div class="col-12 col-md text-center footertext">Copyright 2000 - 2011 版权所有 备案号:晋ICP备07004479号
+                    网址:www.sxtwedu.com</div>
+            </div>
+        </div>
+   
+   </div>
+</div>
+</body>
+
+</html>
