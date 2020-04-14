@@ -165,4 +165,18 @@
 .checkline{
     margin-right:90px;
 }
-
+@media (max-width:768px){
+  .bg-enter{
+    padding: 20px;
+  }
+  .bg-body{
+    padding: 20px;
+  }
+  .fields input, .fields select{
+    height: 32px;
+    font-size: 14px;
+  }
+  .title h3{
+    font-size: 20px;
+  }
+}

@@ -1,27 +1,131 @@
-
-.right{
-    background: #fff;
-    padding-top:130px
+.right {
+  background: #fff;
+  padding-top: 130px
 }
 
-.login-btn,.login-btn-admin{
-    width: 178px;
-    height: 40px;
-    background-color:#D50C00;
-    border-radius: 20px;
-    color:#fff;
-    margin-top:10%;
+.login-btn,
+.login-btn-admin {
+  width: 178px;
+  height: 40px;
+  background-color: #D50C00;
+  border-radius: 20px;
+  color: #fff;
+  margin-top: 10%;
 }
-.login-btn-admin{
-    background-color:#2E5FE8
+
+.login-btn-admin {
+  background-color: #2E5FE8
 }
-.my-login-admin{
-    background: url("../images/adminbg.png") no-repeat top;
-    background-size: 100% 100%;
-    height: 100vh;
-    padding-top:7%;
+
+.my-login-admin {
+  background: url("../images/adminbg.png") no-repeat top;
+  background-size: 100% 100%;
+  height: 100vh;
+  padding-top: 7%;
+
+}
+
+@media(max-width:767px) {
+  .my-login-admin {
+    background: none;
+    padding: 20px 0 0;
+    width: 100%;
+
+  }
+
+  img {
+    width: 100% !important;
+    height: 100% !important;
+  }
+
+  .bg {
+    padding: 0 15px !important;
+  }
+
+  .right {
+    padding-top: 0;
+    position: absolute;
+    top: 110px;
+    background: none;
+    padding: 9%;
+    padding-top: 0;
+  }
+
+  .container {
+    position: relative;
+  }
+
+  .nh {
+    color: #fff !important;
+    font-size: 18px !important;
+    display: inline-block;
+    margin: 20px 0 30px;
+  }
+
+  .dh {
+    display: inline !important;
+  }
+
+  .hy {
+    display: inline;
+    color: #fff !important;
+  }
+
+  .lab {
+    color: rgba(255, 255, 255, .9) !important;
+    width: 48px;
+    text-align-last: justify;
+    text-align: justify;
+    text-justify: distribute-all-lines;
+  }
+
+  .us {
+    display: inline-block;
+    width: 76%;
+    height: 20px;
+    font-size: 12px;
+    line-height: 20px;
+    margin-left: 6px;
+
+  }
+  .us1{
+    width: 60%;
     
+  }
+  .us2{
+    width:45%;
+    float: left;
+    margin-top: 4px;
+  }
+  .fl{
+    float: left;
+    width: 60%;
+    padding-right: 0;
+  }
+  .fr{
+    float: right;
+    width: 40%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .nsee{
+    transform: scale(0.5);
+    margin-left: -5%;
+    margin-top: -2px;
+  }
+  .w48{
+    display: inline-block;
+    width: 48px;
+
+  }
+  .cfff{
+    color: rgba(255, 255, 255, .9) !important;
+  }
+  .login-btn-admin{
+    width: 100%;
+    margin-top: 10%;
+    height: 32px;
+  }
+
+
 }
-
-
-
