@@ -2,371 +2,48 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>山西同文职业技术学院--医学护理系</title>
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
-    <!-- <link rel="stylesheet" href="css/login.css"> -->
-    <script src="./js/jquery.js"></script>
-    <script src="./js/bootstrap.js"></script>
-
-    <style>
-        body {
-    margin: 0;
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-   
-    font-weight: 400;
-    line-height: none;
-    color: none;
-   
-    background-color: #fff;
-    background-image: url("images/loginbg.png");
-      
-}
-        
-        @media (max-width: 767px) {  
-    /*在小于768像素的屏幕里,这里的样式才生效 xs*/  
-    .my-login-lg{display: none;}
-    .my-login{
-            /* background: url("images/loginbg.png") no-repeat top; */
-            background-size: 100% 100%;
-            /* width: 100vw; */
-            /* height: 100vh; */
-            position: relative;
-        }
-    div.login.row{
-            position: absolute;
-            width:100%;
-            padding: 0;
-            margin: 0;
-           
-           
-
-        }
-        .login-l{
-            /* position: absolute; */
-      
-            width:100%;
-            height:30vh;
-            overflow: hidden;
-            margin-top:-1rem;
-            text-align: center;
-           
-            
-        }
-        .login-l img{
-            display: none;
-        }
-        .login-l .img-h{
-            width:400px;
-            height:20vh;
-            background: url('images/logo/school1.png') no-repeat;
-            background-position: 30% 80%;
-            margin: auto;
-        }
-        .login-r{
-            position: absolute;
-            top: 25vh;
-            left: 10%;
-            width:80%;
-
-            height:21rem;
-         
-           
-            background-color: rgba(255,255,255,0.5);
-          
-            border-radius: 4%;
-         
-            text-align: center;
-            padding:1rem;
-        }
-        .login-r .r-tit{
-            position: absolute;
-            bottom:-0.5rem;
-            width:90%;
-            text-align: center;
-            color:#fff;
-        }
-        .login-r .r-tit h2{
-            color:#eee;
-            font-size: 0.3rem;
-             font-weight:400;
-            
-        }
-        .login-r .r-tit p{
-            color:#eee;
-            font-size: 0.5rem; 
-            font-weight:400;
-            margin-bottom:2rem;
-        }
-        .login-btn,.login-btn-admin{
-            width: 100%;
-            height:2.5rem;
-            background-color:#D50C00;
-            border-radius: 20px;
-            color:#fff;
-            margin-top:10%;
-        }
-
-        }  
-        @media (min-width: 768px) and (max-width: 991px) {  
-            /*在768和991像素之间的屏幕里,这里的样式才生效 md */ 
-           
-            .my-login{
-            /* background: url("images/loginbg.png") no-repeat top; */
-                display: none;
-            }
-            div.login{
-                position: absolute;
-                width:100%;
-                padding: 0;
-                margin: 0;
-           
-           
-
-            }
-        .login-l{
-            /* position: absolute; */
-      
-           width:100%;
-            height:30vh;
-            overflow: hidden;
-            text-align: center;
-            margin: auto;
-           
-           
-            
-        }
-        .login-l img{
-            display: none;
-        }
-        .login-l{
-            text-align: center;
-        }
-        .login-l .img-h{
-            width:500px;
-            height:20vh;
-            background: url('images/logo/school1.png') no-repeat;
-            background-position: 50% 50%;
-            margin: auto;
-        }
-        .login-r{
-            position: absolute;
-            top: 25vh;
-            left: 10%;
-            width:80%;
-
-            height:21rem;
-         
-           
-            background-color: rgba(255,255,255,0.5);
-          
-            border-radius: 4%;
-         
-            text-align: center;
-            padding:1rem;
-        }
-        .login-r .r-tit{
-            position: absolute;
-            bottom:-1.5rem;
-            width:90%;
-            text-align: center;
-            color:#000;
-        }
-        .login-r .r-tit h2{
-            color:#000;
-            font-size: 0.3rem;
-             font-weight:400;
-            
-        }
-        .login-r .r-tit p{
-            color:#000;
-            font-size: 0.5rem; 
-            font-weight:400;
-            margin-bottom:2rem;
-        }
-        .login-btn,.login-btn-admin{
-            width: 100%;
-            height:2.5rem;
-            background-color:#D50C00;
-            border-radius: 20px;
-            color:#fff;
-            margin-top:10%;
-        }
-        
-            
-        }  
-        @media (min-width: 992px) and (max-width: 1199px) {  
-            .my-login{
-                display: none;
-            }
-            .my-login-lg{
-            background: url("images/loginbg.png") no-repeat top;
-            background-size: 100% 100%;
-            height: 100vh;
-            position: relative;
-        }
-            div.login.row{
-                position: absolute;
-        
-                top:9%;
-                left: 9%;
-            
-                width:1000px;
-                height: 640px;
-                
-                margin: auto;
-
-            }
-        .login-l{
-            padding-right:0
-        }
-        .login-r{
-            
-            background-color: #fff;
-            width: 500px;
-            height:640px;
-            border-top-right-radius: 4%;
-            border-bottom-right-radius: 4%;
-            text-align: center;
-            padding:7rem 8%;
-        }
-        .login-btn,.login-btn-admin{
-            width: 178px;
-            height: 40px;
-            background-color:#D50C00;
-            border-radius: 20px;
-            color:#fff;
-            margin-top:10%;
-        }
-
-            /*在992和1199像素之间的屏幕里,这里的样式才生效 lg*/ 
-        
-        }  
-        @media (min-width: 1200px) {  
-            /*在大于1200像素的屏幕里,这里的样式才生效*/ 
-        /* .my-login-lg{
-            background: url("images/loginbg.png") no-repeat top;
-            background-size: 100% 100%;
-            height: 100vh;
-            position: relative;
-        } */
-            div.login.row{
-            position: absolute;
-     
-           top:9%;
-           left: 9%;
-           
-            width:1000px;
-            height: 640px;
-            
-            margin: auto;
-
-        }
-        .login-l{
-            padding-right:0
-        }
-        .login-r{
-            background-color: #fff;
-            width: 500px;
-            height:640px;
-            border-top-right-radius: 4%;
-            border-bottom-right-radius: 4%;
-            text-align: center;
-            padding:7rem 8%;
-        }
-        .login-btn,.login-btn-admin{
-            width: 178px;
-            height: 40px;
-            background-color:#D50C00;
-            border-radius: 20px;
-            color:#fff;
-            margin-top:10%;
-        }
-
-            
-            
-        }
-        
-
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>山西同文职业技术学院--医学护理系</title>
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/login.css">
+  <script src="./js/jquery.js"></script>
+  <script src="./js/bootstrap.js"></script>
 </head>
 
 <body>
-    <div class=" my-login">
-        <div class="container" style="text-align: center;padding: 0;">
-            <div class="row login">
-                <div class="login-l" style="padding: 0;" >
-                    <div class="img-h">
-                        <img src="./images/loginpaper.png" />
-                    </div>
-                </div>
-                <div class="login-r" >
-                    <div class="">
-                        <div class="r-tit">
-                            <h2 >欢迎您挑选宿舍!</h2>
-                            <p >请输入身份证号和考生号进行登录</p>
-                        </div>
-                        <form class="login-form">
-                            <div class="form-group" style="text-align: left;">
-                                <label for="exampleInputEmail1" style="color:#361F14;font-size: 15px;text-align:left ;">姓名</label>
-                                <input type="name" class="form-control" id="exampleInputEmail1"
-                                    placeholder="Email">
-                                <span class="help-block"></span>
-                            </div>
-                            <div class="form-group"  style="text-align: left;">
-                                <label for="exampleInputPassword1"
-                                    style="color:#361F14;font-size: 15px ;text-align:left;">身份证号</label>
-                                <input type="cardID" class="form-control" id="exampleInputPassword1"
-                                    placeholder="Password">
-                                <span class="help-block"></span>
-                            </div>
-                            <button type="submit" class="login-btn">登录</button>
-
-                        </form>
-                    </div>
-                </div>
-            </div>
+  <div class="container-fluid my-login">
+    <div class="container">
+      <div class="row login-form">
+        <div class="col-md-6 " style="padding-right:0">
+          <div class="left" style="text-align: right;">
+            <img src="./images/loginpaper.png" width="448" height="640" />
+          </div>
         </div>
-    </div>
-    <div class="my-login-lg">
-        
-            <div class="container">
-                <div class="row login">
-                    <div class="col-md-6 login-l " style="padding-right:0">
-                        <div >
-                            <img src="./images/loginpaper.png" width="448" height="640" />
-                        </div>
-                    </div>
-                    <div class="col-md-6 login-r ">
-                        <div class="row">
-                            <div class="col-xl-9 col-lg-10">
-                                <h2 style="font-size: 24px; font-weight:400;color:#361F14">欢迎您挑选宿舍</h2>
-                                <p style="font-size: 12px;">请输入身份证号和考生号进行登录</p>
-                                <form>
-                                    <div class="form-group">
-                                        <label for="exampleInputEmail1" style="color:#361F14;font-size: 12px;">姓名</label>
-                                        <input type="email" class="form-control" id="exampleInputEmail1"
-                                            placeholder="Email">
-                                        <span class="help-block"></span>
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="exampleInputPassword1"
-                                            style="color:#361F14;font-size: 12px">身份证号</label>
-                                        <input type="password" class="form-control" id="exampleInputPassword1"
-                                            placeholder="Password">
-                                        <span class="help-block"></span>
-                                    </div>
-                                    <button type="submit" class="login-btn">登录</button>
-    
-                                </form>
-                            </div>
-                        </div>
-                    </div>
+        <div class="col-md-5 right right2">
+          <div class="row justify-content-center">
+            <div class="col-xl-9 col-lg-10 t-center">
+              <h2 class="nh2" style="font-size: 24px; font-weight:400;color:#361F14">欢迎您挑选宿舍</h2>
+              <p style="font-size: 12px;">请输入身份证号和考生号进行登录</p>
+              <form>
+                <div class="form-group">
+                  <label class="lab" for="exampleInputEmail1" style="color:#361F14;font-size: 12px;">姓名</label>
+                  <input  type="email" class="form-control us us-login" id="exampleInputEmail1" placeholder="Email">
+                  <span class="help-block"></span>
                 </div>
+                <div class="form-group">
+                  <label class="lab" for="exampleInputPassword1" style="color:#361F14;font-size: 12px">身份证号</label>
+                  <input  type="password" class=" us us-login form-control" id="exampleInputPassword1" placeholder="Password">
+                  <span class="help-block"></span>
+                </div>
+                <button type="submit" class="login-btn">登录</button>
+              </form>
             </div>
-       
+          </div>
+        </div>
+      </div>
     </div>
+  </div>
 </body>
 
 </html>

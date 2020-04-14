@@ -1,10 +1,16 @@
-.right {
+.my-login{
+    background: url("../images/loginbg.png") no-repeat top;
+    background-size: 100% 100%;
+    height: 100vh;
+    padding-top:7%;
+    
+}
+.right{
   background: #fff;
   padding-top: 130px
 }
 
-.login-btn,
-.login-btn-admin {
+.login-btn,.login-btn-admin{
   width: 178px;
   height: 40px;
   background-color: #D50C00;
@@ -22,14 +28,14 @@
   background-size: 100% 100%;
   height: 100vh;
   padding-top: 7%;
-
 }
 
 @media(max-width:767px) {
   .my-login-admin {
-    background: none;
+    background: url(../images/login.jpg);
     padding: 20px 0 0;
     width: 100%;
+    margin-top: 35px;
 
   }
 
@@ -40,6 +46,7 @@
 
   .bg {
     padding: 0 15px !important;
+    /* margin-top: 35px; */
   }
 
   .right {
@@ -50,16 +57,29 @@
     padding: 9%;
     padding-top: 0;
   }
+  .right2{
+    top: 118px;
+    left: 8px;
+  }
 
   .container {
     position: relative;
   }
 
+  .t-center{
+    text-align: center;
+  }
   .nh {
     color: #fff !important;
-    font-size: 18px !important;
+    font-size: 20px !important;
     display: inline-block;
     margin: 20px 0 30px;
+  }
+  .nh2{
+    color: #d50900 !important;
+    font-size: 18px !important;
+    display: inline-block;
+    margin: 20px 0 4px;
   }
 
   .dh {
@@ -87,6 +107,9 @@
     line-height: 20px;
     margin-left: 6px;
 
+  }
+  .us-login{
+    width: 74%;
   }
   .us1{
     width: 60%;
@@ -122,6 +145,11 @@
     color: rgba(255, 255, 255, .9) !important;
   }
   .login-btn-admin{
+    width: 100%;
+    margin-top: 10%;
+    height: 32px;
+  }
+  .login-btn{
     width: 100%;
     margin-top: 10%;
     height: 32px;
