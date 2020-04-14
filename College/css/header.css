@@ -221,3 +221,36 @@ div.hide-con ul li:hover a{
 }
 
 
+
+/* 脚部 footer */
+.footer{
+    background-image: url('../images/contact-bg.png'); padding: 4rem 0 0;
+   }
+   .footer-link{
+    padding: 2em; margin-top: 4rem; color: #FFFFFF; background:rgba(0, 0, 0, 0.4)
+   }
+
+   /* footer */
+
+.footertext h6{
+    font-size: 0.5rem;
+    font-weight: 400;
+    margin: 8% 0 0 0;
+}
+.footertext a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.5rem;
+    font-weight: 400;
+}
+.footertext a:hover{
+   color: #007bff;
+}
+.credits{
+    padding-top:40px;
+}
+.credits .text-center{
+    font-size: 0.5rem;
+    font-weight: 400;
+}
+
