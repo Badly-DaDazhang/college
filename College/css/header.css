@@ -112,13 +112,13 @@ div.dhl .navbar .navbar-collapse ul.mr-auto li.n-more a.nav-link + div.hide-con{
 div.dhl .navbar .navbar-collapse ul.mr-auto li.n-more a.nav-link +  div.hide-con.xs{
         display: block;
         position: absolute;
-        bottom:-6rem;
+        bottom:-108px;
         z-index: 1000;
  }
 div.dhl .navbar .navbar-collapse ul.mr-auto li.n-more a.nav-link:hover + div.hide-con{
     display: block;
     position: absolute;
-    bottom:-6rem;
+    bottom:-108px;
     z-index: 1000;
 }
 div.hide-con,div.hide-con ul{
@@ -131,8 +131,8 @@ div.hide-con,div.hide-con ul{
 div.hide-con ul li{
     list-style: none;
     width:100%;
-    height:2rem;
-    line-height:2rem;
+    height:36px;
+    line-height:36px;
     cursor: pointer;
     text-align: center;
     background-color: #fff;
@@ -146,14 +146,14 @@ div.hide-con ul li:hover{
 div.hide-con ul li a{
     text-decoration: none;
     width:100%;
-    font-size:0.8rem;
+    font-size:16px;
     font-weight:400;
     color:#000;
 }
 div.hide-con ul li:hover a{
     text-decoration: none;
     width:100%;
-    font-size:0.8rem;
+    font-size:16px;
     font-weight:400;
     color:#fff;
     background-color: #BF0B01;
@@ -229,6 +229,7 @@ div.hide-con ul li:hover a{
         margin-bottom:0.5rem;
         text-align:left !important;
     }
+
    
 }  
 @media (min-width: 768px) and (max-width: 991px) {  
@@ -265,6 +266,7 @@ div.hide-con ul li:hover a{
         text-align:left !important;
     }
     
+ 
 
    
     
@@ -275,11 +277,11 @@ div.hide-con ul li:hover a{
         margin-bottom:0.5rem;
         text-align:left !important;
     }
+    
 }  
 @media (min-width: 1200px) {  
     /*在大于1200像素的屏幕里,这里的样式才生效*/ 
-    
-    
+   
 }
 
 /* 轮播图 */
@@ -333,6 +335,10 @@ div.hide-con ul li:hover a{
 }
 .tab-xxk-jhy .tab-content{
     min-height:20rem !important;
+}
+.menu div span:hover{
+    color:#BF0B01;
+    cursor: pointer;
 }
 
 /* 脚部 footer */

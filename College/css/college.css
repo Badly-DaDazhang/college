@@ -12,6 +12,7 @@
     border-bottom: 4px solid #877A69;
 }
 
+
 @media (max-width: 767px) {  
     /*在小于768像素的屏幕里,这里的样式才生效 xs*/  
     .tab-btns .nav-link {
@@ -21,12 +22,14 @@
         /* font-weight: 500; */
         font-size: 1.5rem;
     }
+    
+    
    
    
 }  
 @media (min-width: 768px) and (max-width: 991px) {  
     /*在768和991像素之间的屏幕里,这里的样式才生效 md */ 
-  
+   
     
 }  
 @media (min-width: 992px) and (max-width: 1199px) {  
@@ -35,7 +38,7 @@
 }  
 @media (min-width: 1200px) {  
     /*在大于1200像素的屏幕里,这里的样式才生效*/ 
-    
+ 
     
 }
 
@@ -142,7 +145,7 @@
 }
 .fields input,.fields select{
     border:1px solid #979797;
-    height: 60px;
+    height: 40px;
 }
 .fields button{
     height: 48px;
@@ -162,10 +165,10 @@
 .paper p{
     margin-bottom:16px;
 }
-.bg-body{
-    padding:60px 150px;
-}
+
 .checkline{
     margin-right:90px;
 }
+
+
 

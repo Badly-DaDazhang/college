@@ -1,7 +1,100 @@
 .bg-banner.container-fluid{
     padding: 0 !important;
     }
+    .enter ul li{
+        margin-bottom: 40px;
+    }
+    .enter ul li p {
+       
+    font-size:14px;
+    font-family:PingFangSC-Regular,PingFang SC;
+    font-weight:400;
+    color:rgba(51,51,51,1);
     
+     }
+    .enter ul li .input-group form-control{
+        font-size: 1em;
+     }
+     .enter  ul li .input-group input.form-control{
+         height: 50px;
+     }
+     .enter ul li .input-group textarea.form-control{
+        
+         height: 5em;
+     }
+     .enter ul li .row select.form-control{
+        
+         height:50px;
+     }
+     .col-12.algin-self-center h3{
+        width:96px;
+        height:33px;
+        font-size:24px;
+        font-family:PingFangSC-Semibold,PingFang SC;
+        font-weight:600;
+        color:rgba(51,51,51,1);
+        line-height:33px;
+        text-align: center;
+        margin:0 auto  20px auto;
+     }
+     .col-12.algin-self-center p{
+      
+        height:20px;
+        font-size:14px;
+        font-family:PingFangSC-Regular,PingFang SC;
+        font-weight:400;
+        color:rgba(51,51,51,1);
+        line-height:20px;
+     }
+     .modal-body.bg-body ul li  p{
+        
+        font-size:14px;
+        font-family:PingFangSC-Regular,PingFang SC;
+        font-weight:400;
+        color:rgba(51,51,51,1);
+        line-height:16px;
+     }
+     
+     .modal-body.bg-body ul li div div label{
+        font-size:14px;
+        font-family:PingFangSC-Regular,PingFang SC;
+        font-weight:400;
+        color:rgba(51,51,51,1);
+        line-height:16px;
+     }
+    .modal-body.bg-body ul li .input-group form-control{
+        font-size: 1rem;
+     }
+     .modal-body.bg-body ul li .input-group input.form-control{
+         height: 2.2em;
+     }
+     .modal-body.bg-body ul li .input-group textarea.form-control{
+        
+         height: 4em;
+     }
+     .modal-body.bg-body ul li .row select.form-control{
+        
+         height: 2.2em;
+     }
+     .custom-control.custom-radio{
+         height: 40px;
+         line-height: 40px;}
+    
+    
+    .bg-body .checkline{
+        margin-right: 0 !important;
+    }
+    .form-group.row{
+        margin-left:0 !important;
+    }
+    .enter ul li  p span{
+   
+        font-size:14px;
+        font-family:PingFangSC-Regular,PingFang SC;
+        font-weight:400;
+        color:#dc3545;
+        
+    }
 @media (max-width: 767px) {  
     /*在小于768像素的屏幕里,这里的样式才生效 xs*/  
     /* 报名系统 */
@@ -35,12 +128,64 @@
         height:3em;
     }
     .form-check-label{
-        font-size: 1.2em !important;
+        font-size: 14px !important;
     }
+
+    .bg-body{
+        padding:1em 9%;
+    } 
+    .modal-body.bg-body ul li .input-group form-control{
+       font-size: 1rem;
+    }
+    .modal-body.bg-body ul li .input-group input.form-control{
+        height: 2.2em;
+    }
+    .modal-body.bg-body ul li .input-group textarea.form-control{
+       
+        height: 4em;
+    }
+    .modal-body.bg-body ul li .row select.form-control{
+       
+        height: 2.2em;
+    }
+
+    .enter ul li p {
+   
+        font-size:14px;
+        font-family:PingFangSC-Regular,PingFang SC;
+        font-weight:400;
+        color:rgba(51,51,51,1);
+        
+    }
+    .enter ul li  p span{
+   
+        font-size:14px;
+        font-family:PingFangSC-Regular,PingFang SC;
+        font-weight:400;
+        color:#dc3545;
+        
+    }
+    .enter ul li .input-group form-control{
+        font-size: 1em;
+     }
+     .enter  ul li .input-group input.form-control{
+         height: 40px;
+     }
+     .enter ul li .input-group textarea.form-control{
+        
+         height: 5em;
+     }
+     .enter ul li .row select.form-control{
+        
+         height:40px;
+     }
    
 }  
 @media (min-width: 768px) and (max-width: 991px) {  
     /*在768和991像素之间的屏幕里,这里的样式才生效 md */ 
+    .bg-body{
+        padding:1em 9%;
+    }
     .bg-banner.container-fluid img{
         display: block;
       }
@@ -59,6 +204,9 @@
 }  
 @media (min-width: 992px) and (max-width: 1199px) {  
     /*在992和1199像素之间的屏幕里,这里的样式才生效 lg*/ 
+    .bg-body{
+        padding:40px 120px;
+    }
     .bg-enter{
         background:#F1EFF2;
         min-height: 1000px;
@@ -73,6 +221,9 @@
 }  
 @media (min-width: 1200px) {  
     /*在大于1200像素的屏幕里,这里的样式才生效*/ 
+    .bg-body{
+        padding:40px 120px;
+    }
     .bg-enter{
         background:#F1EFF2;
         min-height: 1000px;

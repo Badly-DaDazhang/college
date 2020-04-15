@@ -183,30 +183,133 @@ line-clamp: 1;
 }
 
 /* 师资团队 */
-.teacherlist {
-  width: 184px;
-  max-height: 184px;
-  margin-right: 20px;
-  /* background: #ccc; */
-  margin-bottom: 20px;
-  padding: 0;
+
+
+@media (max-width: 767px) {  
+  /*在小于768像素的屏幕里,这里的样式才生效 xs*/  
+  
+  .teacherlist {
+      width: 140px;
+      height:150px;
+      max-height: 200px;
+      /* margin-right: 20px; */
+      /* background: #ccc; */
+      margin-bottom: 30px;
+      padding: 0;
+      margin: 0 auto;
+      text-align: center;
+    }
+  .teacherlist img {
+      /* display: inline-block; */
+    
+      height:100px;
+      /* max-height: 100%; */
+  
+      vertical-align: middle;
+      border-radius: 50%;
+     
+    }
+    .teacherlist p {
+      text-align: center;
+      line-height: 12px;
+      color: #333333;
+      font-size: 1px;
+      margin-top: 10px;
+    }
+ 
+}  
+@media (min-width: 768px) and (max-width: 991px) {  
+  /*在768和991像素之间的屏幕里,这里的样式才生效 md */ 
+ 
+  
+  .teacherlist {
+      width: 100px;
+      height:140px;
+     
+      /* margin-right: 20px; */
+      /* background: #ccc; */
+      text-align: center;
+      /* padding: 0; */
+    }
+  .teacherlist img {
+      /* display: inline-block; */
+     width:100px;
+      height:100px;
+      /* max-height: 100%; */
+      /* vertical-align: middle; */
+      border-radius: 50%;
+    }
+    .teacherlist p {
+      
+      line-height: 15px;
+      color: #333333;
+      font-size: 10px;
+      margin-top: 10px;
+    }
+
+ 
+  
+}  
+@media (min-width: 992px) and (max-width: 1199px) {  
+  /*在992和1199像素之间的屏幕里,这里的样式才生效 lg*/ 
+ 
+  .teacherlist {
+      width: 200px;
+      height:200px;
+      max-height: 200px;
+      /* margin-right: 20px; */
+      /* background: #ccc; */
+      margin-bottom: 30px;
+      padding: 0;
+      margin-right:20px;
+    }
+  .teacherlist img {
+      /* display: inline-block; */
+     width:120px;
+      height:120px;
+      /* max-height: 100%; */
+      vertical-align: middle;
+      border-radius: 50%;
+    }
+    .teacherlist p {
+      text-align: center;
+      line-height: 30px;
+      color: #333333;
+      font-size: 14px;
+      margin-top: 10px;
+    }
+}  
+@media (min-width: 1200px) {  
+  /*在大于1200像素的屏幕里,这里的样式才生效*/ 
+  .teacherlist {
+      width: 200px;
+      height:200px;
+      max-height: 200px;
+      /* margin-right: 20px; */
+      /* background: #ccc; */
+      margin-bottom: 30px;
+      padding: 0;
+      margin-right:30px;
+    }
+  .teacherlist img {
+      /* display: inline-block; */
+     width:150px;
+      height:150px;
+      /* max-height: 100%; */
+      vertical-align: middle;
+      border-radius: 50%;
+      
+    }
+    .teacherlist p {
+      text-align: center;
+      line-height: 20px;
+      color: #333333;
+      font-size: 14px;
+      margin-top: 10px;
+    }
 }
 
-.teacherlist p {
-  text-align: center;
-  line-height: 30px;
-  color: #333333;
-  font-size: 14px;
-  margin-top: 10px;
-}
 
-.teacherlist img {
-  /* display: inline-block; */
-  width: 100%;
-  max-height: 100%;
-  vertical-align: middle;
-  border-radius: 50%;
-}
 
 
 
@@ -420,16 +523,17 @@ line-clamp: 3;
     margin: 0 auto 16px;
     border-bottom: 1px dashed #ccc;
   }
-  .teacherlist{
+  /* .teacherlist{
     margin: 0 auto;
     margin-bottom: 3%;
     width: 86%;
     max-height: 100%;
+    text-align: center;
   }
   .teacherlist p{
     font-size: 16px;
     margin-top: 3%;
-  }
+  } */
 
   /* 新闻动态 */
   .slider h4 {
