@@ -4,6 +4,7 @@
   margin-bottom: 20px;
 }
 
+
 .accout-wrap img {
   width: 100%;
 }
@@ -135,6 +136,11 @@ line-clamp: 1;
   height: 50px;
 }
 
+.account-list ul li:hover span{
+  color: #D50C00 !important;
+  cursor: pointer;
+}
+
 .account-list ul li span {
   display: inline-block;
   float: left;
@@ -180,6 +186,7 @@ line-clamp: 1;
   width: 100%;
   max-height: 100%;
   vertical-align: middle;
+  border-radius: 50%;
 }
 
 
@@ -197,6 +204,9 @@ line-clamp: 1;
   cursor: pointer;
   padding-bottom: 20px;
   border-bottom: 1px solid #EEEEEE;
+}
+.trend-content ul li:hover{
+  color: #D50C00;
 }
 
 .trend-content ul li p {
@@ -216,6 +226,12 @@ line-clamp: 1;
 
 .trend-main {
   margin-bottom: 20px;
+}
+.trend-main:hover{
+  cursor: pointer;
+}
+.trend-main:hover .media-body .media-heading{
+  color: #D50C00;
 }
 
 .trend-main-pic {
@@ -249,7 +265,11 @@ line-clamp: 1;
   color: #666;
   line-height: 30px;
 }
-
+/* content */
+.content{
+margin-bottom:1rem !important;
+ margin-top: 1rem !important;
+}
 
 /* news_list */
 .sm-news{
