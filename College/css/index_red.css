@@ -1,7 +1,9 @@
 
        
     html{font-size:100%;} 
-    
+    .trends{
+        margin-top: 3em;
+    }
     @media (max-width: 767px) {  
         /*在小于768像素的屏幕里,这里的样式才生效 xs*/  
 
@@ -15,6 +17,9 @@
             font-weight:400;
             color:rgba(255,255,255,1) !important;
             margin-left: 5%;
+        }
+        .trends{
+            margin-top: 1em !important;
         }
         .trends-tittle ul li{
             width:5rem !important;
@@ -86,7 +91,9 @@
             font-weight:400;
             color:rgba(255,255,255,1) !important;
         }
-
+        .trends{
+            margin-top: 1em !important;
+        }
         #teacher-banner .carousel-inner .carousel-item .teac-c {
             display: flex;
             
@@ -164,7 +171,9 @@
                 height:4.5rem;
                 line-height:4.5rem;
             }
-            
+            .trends{
+                margin-top: 1em !important;
+            }
             #teacher-banner .carousel-inner .carousel-item .teac-c {
                 display: flex;
                 
@@ -285,7 +294,7 @@
         margin-left:22%;
     }
     .zysz-r  .r-con div a:hover{
-        color: #007bff;
+        color: #D50C00;
     }
     span.s1,span.s2{
         margin:0;
@@ -411,15 +420,27 @@
         margin-left:1.6%;
          /* background-color: darkgray; */
     }
+
+
     /* .module-train */
     .module-train
     {
         background:rgba(255,247,238,1);
         padding: 0.5rem 0 2rem 0;
     }
+
+    .sm-con .row .card:hover .card-body .card-text{
+        color: #D50C00;
+        cursor: pointer;
+    }
+    .lg-con .card:hover .card-body p{
+        color: #D50C00;
+        cursor: pointer;
+    }
    /* 脚部 footer */
    .footer{
-    background-image: url('../images/contact-bg.png'); padding: 4rem 0 0;
+    background-image: url('../images/contact-bg.png'); 
+    padding: 4rem 0 0;
    }
    .footer-link{
     padding: 2em; margin-top: 4rem; color: #FFFFFF; background:rgba(0, 0, 0, 0.4)

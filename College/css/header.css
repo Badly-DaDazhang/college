@@ -82,7 +82,8 @@ div.dhl .navbar{
 }
 .dhl .navbar-light .navbar-nav .nav-link {
     color: #FFFFFF;
-    padding: 0.8rem 2rem;
+    padding: 0.8em 1.6em;
+    line-height: 20px;
 }
 .dhl  .navbar-light .navbar-nav .active>.nav-link {
     color: #FFFFFF;
@@ -162,6 +163,36 @@ div.hide-con ul li:hover a{
     background-color:  #7A6D5D;
    
 }
+
+/* 轮播图 */
+.banner{
+    text-align: center;
+    margin-bottom:3em;
+}
+.banner.bs {
+    background-color: #F5F5F5 !important;
+ 
+}
+.banner.hs {
+    background-color: #D50C00 !important;
+   
+}
+.banner.zs {
+    background-color: #877A69 !important;
+  
+}
+.banner .carousel{
+    max-width: 1900px;
+    margin: 0 auto;
+}
+.banner .carousel .carousel-inner .carousel-item img{
+    display:block;
+    
+    max-width: 1900px;
+}
+
+
+
 @media (max-width: 767px) {  
     /*在小于768像素的屏幕里,这里的样式才生效 xs*/  
     .logo .logo-con .row div.logo-l{
@@ -208,10 +239,12 @@ div.hide-con ul li:hover a{
     div.dhl .navbar .navbar-collapse ul.mr-auto li.n-more a.nav-link + div.hide-con.xs{
         display: block;
     }
-
+    .banner {
+        margin-bottom:10px !important;
+    }
     .banner .carousel .carousel-inner .carousel-item img{
         display:block;
-        height:220px !important;
+        /* height:220px !important; */
         width: 100%;
     }
     .container.footer-c{
@@ -261,6 +294,18 @@ div.hide-con ul li:hover a{
         font-weight:400;
         margin-right:0.5rem;
     }
+
+    .banner{
+        margin-bottom:10px !important;
+    }
+    .banner .carousel .carousel-inner .carousel-item img{
+        display:block;
+        /* height:220px !important; */
+        width: 100%;
+    }
+
+
+
     .footertext {
         margin-bottom:0.5rem;
         text-align:left !important;
@@ -284,19 +329,7 @@ div.hide-con ul li:hover a{
    
 }
 
-/* 轮播图 */
-.banner {
-    background-color: #F5F5F5 !important;
-    text-align: center;
-}
-.banner .carousel{
-    max-width: 1900px;
-}
-.banner .carousel .carousel-inner .carousel-item img{
-    display:block;
-    height:460px;
-    max-width: 1900px;
-}
+
 
 /* 专业设置 */
 .navbar-toggler .i1{
@@ -347,6 +380,9 @@ div.hide-con ul li:hover a{
     color:#BF0B01;
     cursor: pointer;
 }
+.menu div span:hover a{
+    color:#BF0B01!important;
+}
 
 /* 脚部 footer */
 .footer{
@@ -396,8 +432,12 @@ div.hide-con ul li:hover a{
    }
 .footertext h6{
     font-size: 0.7em;
+  line-height:26px;
+    /* margin: 3% 0 0 0; */
+    font-size: 0.7em;
+    font-family: PingFangSC-Regular,PingFang SC;
     font-weight: 400;
-    margin: 3% 0 0 0;
+    color: rgba(255,255,255,1);
 
    
    
@@ -417,7 +457,7 @@ div.hide-con ul li:hover a{
    
 }
 .footertext a:hover{
-   color: #007bff;
+   color: #BF0B01;
 }
 .credits{
     padding-top:40px;

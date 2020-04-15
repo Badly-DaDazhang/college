@@ -469,6 +469,15 @@ html{font-size:100%;}
             color: #C22626;
 
         }
+
+        .sm-con .row .card:hover .card-body .card-text{
+            color: #D50C00;
+            cursor: pointer;
+        }
+        .lg-con .card:hover .card-body p{
+            color: #D50C00;
+            cursor: pointer;
+        }
         .card-item:hover{
             cursor: pointer;
             color: #C22626;
