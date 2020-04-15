@@ -86,7 +86,7 @@
     font-size: 12px;
 }
 .new-list{
-    height:3.5rem;
+   
     color:#333333;
     font-size: 14px;
     margin-bottom:20px
@@ -158,4 +158,26 @@ line-height:2rem
 .new-people-bottom p{
     font-size: 14px;
     color: #666666;
+}
+.media-body
+{
+    cursor: pointer !important;
+    font-size:14px !important;
+   font-family:PingFangSC-Regular,PingFang SC !important;
+   font-weight:400 !important;
+   color:rgba(51,51,51,1) !important;
+   line-height:28px !important;
+
+   text-overflow: -o-ellipsis-lastline !important;
+   overflow: hidden !important;
+   text-overflow: ellipsis !important;
+   display: -webkit-box !important;
+   -webkit-line-clamp: 2 !important;
+   line-clamp: 2 !important;
+   -webkit-box-orient: vertical !important;
+}
+.media-body:hover
+{
+   color:#D50C00 !important;
+   
 }

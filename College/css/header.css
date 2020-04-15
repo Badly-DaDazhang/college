@@ -1,4 +1,4 @@
-html{font-size:100%;} 
+html{font-size:100%;user-select: none;} 
 .logo {
     color: #FFFFFF;
     background-color: #D50C00;
@@ -41,7 +41,7 @@ html{font-size:100%;}
    cursor: pointer;
 }
 .logo .logo-con .row div.logo-r nav a.p-2:hover{
-    color: #007bff;
+    /* color: #007bff; */
 }
 .logo .logo-con .row div.logo-r nav a.p-2 i{
     font-size:1rem;
@@ -49,7 +49,7 @@ html{font-size:100%;}
     font-weight:400;
     margin-right:0.5rem;
 }
-.logo .logo-con .row div.logo-r-sm{
+.logo-r-sm{
     display: none;
 }
 
@@ -72,7 +72,7 @@ div.dhl .navbar{
 .dhl  .navbar-light .navbar-nav .active>.nav-link {
     color: #FFFFFF;
     background-color: #BF0B01;
-    background-image: url(../images/base-bg.png);
+    background-image: url('../images/base-bg.png');
 }
 div.dhl .navbar .navbar-collapse ul.mr-auto li:hover{
     color: #FFFFFF;
@@ -88,8 +88,8 @@ div.dhl .navbar .navbar-collapse ul.mr-auto li.n-more a.nav-link + div.hide-con{
 div.dhl .navbar .navbar-collapse ul.mr-auto li.n-more a.nav-link +  div.hide-con.xs{
         display: block;
         position: absolute;
-    bottom:-6rem;
-    z-index: 1000;
+        bottom:-6rem;
+        z-index: 1000;
  }
 div.dhl .navbar .navbar-collapse ul.mr-auto li.n-more a.nav-link:hover + div.hide-con{
     display: block;
@@ -102,11 +102,13 @@ div.hide-con,div.hide-con ul{
     background-color: #eee;
     list-style: none;
     padding: 0;
+    border-radius: 1px;
 }
 div.hide-con ul li{
     list-style: none;
     width:100%;
     height:2rem;
+    line-height:2rem;
     cursor: pointer;
     text-align: center;
 }
@@ -130,6 +132,9 @@ div.hide-con ul li:hover a{
 }
 @media (max-width: 767px) {  
     /*在小于768像素的屏幕里,这里的样式才生效 xs*/  
+    .logo .logo-con .row div.logo-l{
+        width: 100%;
+    }
     .logo .logo-con .row div.logo-l img {
         margin:0.8rem 0 0.8rem 1rem !important;
         display:inline-block;
@@ -138,28 +143,29 @@ div.hide-con ul li:hover a{
     .logo .logo-con .row div.logo-r{
     display: none;
     }
-    .logo .logo-con .row div.logo-r-sm{
+    .logo-r-sm{
         display:block;
         background-color: #877A69;
-        height: 3.5rem;
+        padding:0;
+        /* min-height: rem; */
         
     }
-    .logo .logo-con .row div.logo-r-sm a{
+     div.logo-r-sm a{
         text-decoration:none;
         display: inline-block;
-        width: 42%;
-        line-height: 3.5rem;
+        width: 40%;
+        line-height: 2.3rem;
         text-align: center;
         cursor: pointer;
     }
-    .logo .logo-con .row div.logo-r-sm a:hover{
+    div.logo-r-sm a:hover{
         color:#007bff;
     }
 
-    .logo .logo-con .row div.logo-r-sm a i
+     div.logo-r-sm a i
     {
         display:inline-block;
-        font-size:1.5rem;
+        font-size:1.1rem;
         font-weight:600;
         
         color: #fff;
@@ -170,10 +176,27 @@ div.hide-con ul li:hover a{
     div.dhl .navbar .navbar-collapse ul.mr-auto li.n-more a.nav-link + div.hide-con.xs{
         display: block;
     }
-   
 
-    
-
+    .banner .carousel .carousel-inner .carousel-item img{
+        display:block;
+        height:220px !important;
+        width: 100%;
+    }
+    .container.footer-c{
+        padding:3em !important;
+    }
+    .footer-link{
+        padding: 2em; 
+        /* margin-top: 4rem; */
+         color: #FFFFFF; 
+         background:rgba(0, 0, 0, 0.4);
+         /* padding: 2rem 0 1rem 0; */
+         
+       }
+    .footertext {
+        margin-bottom:0.5rem;
+        text-align:left !important;
+    }
    
 }  
 @media (min-width: 768px) and (max-width: 991px) {  
@@ -205,6 +228,10 @@ div.hide-con ul li:hover a{
         font-weight:400;
         margin-right:0.5rem;
     }
+    .footertext {
+        margin-bottom:0.5rem;
+        text-align:left !important;
+    }
     
 
    
@@ -212,7 +239,10 @@ div.hide-con ul li:hover a{
 }  
 @media (min-width: 992px) and (max-width: 1199px) {  
     /*在992和1199像素之间的屏幕里,这里的样式才生效 lg*/ 
-    
+    .footertext {
+        margin-bottom:0.5rem;
+        text-align:left !important;
+    }
 }  
 @media (min-width: 1200px) {  
     /*在大于1200像素的屏幕里,这里的样式才生效*/ 
@@ -220,28 +250,126 @@ div.hide-con ul li:hover a{
     
 }
 
+/* 轮播图 */
+.banner .carousel .carousel-inner .carousel-item img{
+    display:block;
+    height:460px;
+    max-width: 1900px;
+}
 
+/* 专业设置 */
+.navbar-toggler .i1{
+    display: none;
+}
+.navbar-toggler .i2{
+    display: block;
+}
+.navbar-toggler.collapsed .i1{
+    display: block;
+}
+.navbar-toggler.collapsed .i2{
+    display: none;
+}
+.navbar-toggler:focus{
+    border: none !important;
+    outline: none !important;
+}
+
+
+/* tittle公共样式 */
+ /* tab-xxk-jhy */
+ .tab-xxk-jhy .tittle ul li a{
+    font-size :1rem !important;
+    font-family:PingFangSC-Medium,PingFang SC !important;
+    font-weight:500 !important;
+    color:#000 !important;
+    line-height:2rem !important;
+}
+.tab-xxk-jhy .tittle ul li a.active{
+    
+    color:#BF0B01!important;
+   
+}
+.tab-xxk-jhy .tittle>a{
+     
+     
+      font-size:12px !important;
+      font-family:PingFangSC-Medium,PingFang SC !important;
+      font-weight:500 !important;
+      color:rgba(51,51,51,1) !important;
+      line-height:17px !important;
+}
+.tab-xxk-jhy .tab-content{
+    min-height:20rem !important;
+}
 
 /* 脚部 footer */
 .footer{
     background-image: url('../images/contact-bg.png'); padding: 4rem 0 0;
    }
+   
    .footer-link{
-    padding: 2em; margin-top: 4rem; color: #FFFFFF; background:rgba(0, 0, 0, 0.4)
+    padding: 2em; 
+    margin-top: 4rem;
+     color: #FFFFFF; 
+     background:rgba(0, 0, 0, 0.4);
+     /* padding: 2rem 0 1rem 0; */
+     
    }
+   
+   .footer-c-l{
+   color: #FFFFFF; 
+   font-size: 1.2em;
+   margin-bottom: 2em;
+   }
+   .footer-c-r{
+    color: #FFFFFF; 
+   
+    }
+    .footer-c-r div {
+        margin-bottom: 1rem;
+    }
+    .footer-c-r div span{
+        font-size: 0.9rem;
+        font-family:PingFangSC-Regular,PingFang SC;
+        font-weight:400;
+        color:rgba(255,255,255,1);
+        line-height:1rem;
+        margin-bottom: 0.1rem;
+    }
+    .footer-c-r div span.yx{
+        font-size: 1rem;
+        
+    }
 
    /* footer */
-
+.footertext {
+       margin-bottom:8px;
+       text-align: center;
+       height: 24px;
+       line-height: 24px;
+   }
 .footertext h6{
-    font-size: 0.5rem;
+    font-size: 0.7em;
     font-weight: 400;
-    margin: 8% 0 0 0;
+    margin: 3% 0 0 0;
+
+   
+   
+    font-family:PingFangSC-Regular,PingFang SC;
+    font-weight:400;
+    color:rgba(255,255,255,1);
+   
 }
 .footertext a{
     text-decoration: none;
     color: #fff;
-    font-size: 0.5rem;
-    font-weight: 400;
+    font-size: 0.7em;
+ 
+    font-family:PingFangSC-Regular,PingFang SC;
+    font-weight:400;
+    color:rgba(255,255,255,1);
+   
 }
 .footertext a:hover{
    color: #007bff;
@@ -250,7 +378,7 @@ div.hide-con ul li:hover a{
     padding-top:40px;
 }
 .credits .text-center{
-    font-size: 0.5rem;
+    font-size: 0.5em;
     font-weight: 400;
 }
 

@@ -14,18 +14,64 @@
     <script src="./js/bootstrap.js"></script>
     <script src="./js/college.js"></script>
     <style>
-       
-        
 
+        .trends .tab-content .tab-pane .row div div{
+            
+        }
+        .trends .tab-content .tab-pane .row div p{
+            /* width:80%; */
+            
+            font-size:14px;
+            font-family:PingFangSC-Regular,PingFang SC;
+            font-weight:400;
+            color:rgba(51,51,51,1);
+            line-height:28px;
+
+            text-overflow: -o-ellipsis-lastline;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            line-clamp: 2;
+            -webkit-box-orient: vertical;
+
+            cursor: pointer;
+        }
+        .trends .tab-content .tab-pane .row div p:hover{
+            color: #D50C00;
+        }
+        .tab-xxk-jhy .tittle ul li a{
+          font-size :1rem;
+          font-family:PingFangSC-Medium,PingFang SC;
+          font-weight:500;
+          color:#000;
+          line-height:2rem;
+      }
+      .tab-xxk-jhy .tab-content{
+          min-height:20rem;
+      }
+      .navbar-toggler .i1{
+          display: none;
+      }
+      .navbar-toggler .i2{
+          display: block;
+      }
+      .navbar-toggler.collapsed .i1{
+          display: block;
+      }
+      .navbar-toggler.collapsed .i2{
+          display: none;
+      }
 
     </style>
 </head>
 
 <body>
+    <!-- 白色 -->
     <div class="logo" style="background-color: #fff;">
         <div class="container logo-con" >
             <div class="row" >
-                <div class="col-9 logo-l" style="background-color: #fff;">
+                <div class="col-lg-9 col-md-9 col-xs-12 col-sm-12 logo-l" style="background-color: #fff;">
                     <img src="images/logo/yxhlx2x.png" />
                 </div>
                 <div  class="col-3 logo-r"  style="background-color: #fff;">
@@ -36,13 +82,7 @@
                             <i class="iconfont iconsearch" ></i>搜索</a>
                     </nav>
                 </div>
-                <div  class="col-3 logo-r-sm">
-                    <nav style="height: 100%;">
-                        <a class="" ><i class="iconfont iconsearch" ></i></a>
-                        <span class="fe" style="display: inline-block;padding: 0;margin: 0;width:1%;height:1rem;border:1px solid#fff;"></span>
-                        <a class="" ><i class="iconfont icondaohang" ></i></a>
-                    </nav>
-                </div>
+               
             </div>
     
         </div>
@@ -60,6 +100,14 @@
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+                
+                <div  class="col-3 logo-r-sm">
+                    <nav style="height: 2.3rem;">
+                        <a class="" ><i class="iconfont iconsearch" ></i></a>
+                        <span class="fe" style="display: inline-block;padding: 0;margin: 0;width:1%;height:1rem;border:1px solid#fff;"></span>
+                        <a class="" ><i class="iconfont icondaohang" ></i></a>
+                    </nav>
+                </div>
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
@@ -107,7 +155,7 @@
         </div>
     </div>
     <!-- 轮播-->
-    <div class="container banner" style="padding:0;margin-bottom:30px;">
+    <div class="container-fluid banner" style="padding:0;margin-bottom:0.5rem;">
         <div id="demo" class="carousel slide" data-ride="carousel">
 
             <!-- 指示符 -->
@@ -190,8 +238,9 @@
             <span class="tit">专业设置</span>
             <button class="navbar-toggler" type="button" data-toggle="collapse"
                 data-target="#set" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                aria-label="Toggle navigation" style="color: #FFFFFF;height: 2.5rem; border: none;width: 50px;">
+                <i class=" iconfont iconshoujiweizhankai i1"></i>
+                <i class=" iconfont iconshoujixiala i2"></i>
             </button>
 
             <div class="collapse navbar-collapse" id="set">
@@ -228,9 +277,9 @@
     </div>
 
     <!-- 教学动态  例会动态 系部活动 trends-->
-    <div class="container trends" style="margin-top: 3rem;">
+    <div class="container trends tab-xxk-jhy" style="margin-top: 3rem;">
 
-        <div class="trends-tittle" style="border-bottom: 1px solid #979797; margin-bottom: 1rem;">
+        <div class="trends-tittle tittle" style="border-bottom: 1px solid #979797; margin-bottom: 1rem;">
             <a href="" class=" btn btn-link float-right">更多 ></a>
 
             <ul class="nav nav-pills tab-btns" id="pills-tab" role="tablist">
@@ -540,9 +589,9 @@
 
     </div>
     <!-- 实验实训建设 build-->
-    <div class="build">
-        <div class="container module-b">
-            <div class="module-b-tit">
+    <div class="build ">
+        <div class="container module-b tab-xxk-jhy">
+            <div class="module-b-tit tittle">
                 <a href="" class=" btn btn-link float-right">更多 ></a>
                 <ul class="nav nav-pills tab-btns" id="pills-tab1" role="tablist">
                     <li class="nav-item">
@@ -582,7 +631,7 @@
                                 <div >
                                     <p class="t">
                                         2013级护理、助产专业学生操作技能强化训练及考核</p>
-                                    <p>5月28日，我系进行了护理、助产专业学生操作技能强化训练及考核，共有912名学生参加了训练和考核，分别针对无菌操作基本技术、隔离技术、约束带约束患者技术、生命体征测量技术、心肺复苏基本生命支持技术、密闭式静脉留置针输液技术等21个项目进行了强化训练和考核。
+                                    <p class="ttt">5月28日，我系进行了护理、助产专业学生操作技能强化训练及考核，共有912名学生参加了训练和考核，分别针对无菌操作基本技术、隔离技术、约束带约束患者技术、生命体征测量技术、心肺复苏基本生命支持技术、密闭式静脉留置针输液技术等21个项目进行了强化训练和考核。
                                 </div>
                                 </p>
                             </div>
@@ -606,7 +655,7 @@
                                 </div>
                                 <div>
                                     <p class="t">17级影像专业学生见习</p>
-                                    <p>2019年5月9日，医学护理系17级影像专业学生在介休市第二人民医院彩超室进行见习，王琼老师担任临床带教，为学生们进行详细讲解。</p>
+                                    <p class="ttt">2019年5月9日，医学护理系17级影像专业学生在介休市第二人民医院彩超室进行见习，王琼老师担任临床带教，为学生们进行详细讲解。</p>
                                 </div>
                             </div>
                         </div>
@@ -628,7 +677,7 @@
                                 </div>
                                 <div >
                                     <p class="t">17级影像专业学生见习</p>
-                                    <p>2019年5月9日，医学护理系17级影像专业学生在介休市第二人民医院彩超室进行见习，王琼老师担任临床带教，为学生们进行详细讲解。</p>
+                                    <p class="ttt">2019年5月9日，医学护理系17级影像专业学生在介休市第二人民医院彩超室进行见习，王琼老师担任临床带教，为学生们进行详细讲解。</p>
                                 </div>
                             </div>
                         </div>
@@ -691,8 +740,8 @@
         </div>
     </div>
     <!-- 教师风采 module-teacher -->
-    <div class="container  module-teacher" style="margin-top: 2rem;">
-        <div class="module-teacher-tit">
+    <div class="container  module-teacher tab-xxk-jhy" style="margin-top: 2rem;">
+        <div class="module-teacher-tit tittle">
             <a href="" class=" btn btn-link float-right">更多 ></a>
             <ul class="nav nav-pills tab-btns" role="tablist">
                 <li class="nav-item">
@@ -884,9 +933,9 @@
    
     <!-- 人才培养  module-train-->
     <div class="module-train">
-        <div class="container" style="margin-top: 2rem; ">
+        <div class="container tab-xxk-jhy" style="margin-top: 2rem; ">
 
-            <div class="train-tittle" style="border-bottom: 1px solid #979797; margin-bottom: 1rem;">
+            <div class="train-tittle tittle" style="border-bottom: 1px solid #979797; margin-bottom: 1rem;">
                 <a href="" class=" btn btn-link float-right">更多 ></a>
     
                 <ul class="nav nav-pills tab-btns" id="pills-tab" role="tablist">
@@ -1116,61 +1165,70 @@
     
   
     
-   <!-- 脚部 footer -->
-   <div class="footer" >
-        <div class="container" >
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12 col-xs-12">
-                        <p style="color: #FFFFFF; font-size: 1.2rem;">联系我们</p>
-                        <p style="font-size: 2.5rem; color: #36354A;">CONTACT US</p>
+ <!-- 脚部 footer -->
+ <div class="footer" >
+    <!-- <div class="container" > -->
+        <div class="container footer-c">
+            <div class="row">
+                <div class="col-xl-8 col-lg-8 col-md-6 col-sm-12 col-xs-12 footer-c-l">
+                    <p >联系我们</p>
+                    <p style="font-size: 2.5rem; color: #D50C00;margin-top: 1rem;">CONTACT US</p>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 footer-c-r">
+                    <div class="row">
+                        <span class="col-12 " >联系电话</span> 
+                        <span class="col-12 ">
+                            0354-5584115
+                        </span>
                     </div>
-                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12" style="color: #FFFFFF;">
-                        <span style="font-size: 0.7rem;">联系电话</span> <br>
-                        0354-5584115
-                        <p></p>
-                        <span style="font-size: 0.7rem;">邮箱</span> <br>
-                        hulixizhuhong@163.com
+                    <div class="row">
+                        <span class="col-12 " >邮箱</span> 
+                        <span class="col-12 yx" ">hulixizhuhong@163.com</span> 
                     </div>
+                    
+                  
+                    
                 </div>
             </div>
         </div>
+    <!-- </div> -->
         <div class="footer-link">
-   
+
             <div class="container">
                 <div class="row">
-                    <div class="col-8 col-md  footertext" style="min-width: 80px;">
+                    <div class="col-lg-1 col-md-12 col-xs-12  footertext" >
                         <h6 class="text-white">友情链接:</h5>
                     </div>
-                    <div class="col-8 col-md footertext">
+                    <div class="col-lg-2 col-md-6 col-xs-5 footertext">
                         <a href="#">中国工业机器人产业联盟</a>
                     </div>
-                    <div class="col-8 col-md col-lg footertext">
+                    <div class="col-lg-2 col-md-6  col-xs-5 footertext">
                         <a href="#">中国工业机器人产业联盟</a>
                     </div>
-                    <div class="col-9 col-md footertext" style="min-width: 200px;">
+                    <div class="col-lg-3 col-md-6 col-xs-5 footertext " >
                         <a href="#">北京华航唯实机器人科技有限公司</a>
                     </div>
-                    <div class="col-8 col-md footertext">
+                    <div class="col-lg-2 col-md-6 col-xs-5 footertext">
                         <a href="#">山西通用航空产业发展研究院</a>
                     </div>
-                    <div class="col-8 col-md footertext">
+                    <div class="col-lg-2 col-md-6 col-xs-5 footertext">
                         <a href="#">中国通用航空网</a>
                     </div>
                 </div>
             </div>
             <div class="container">
                 <div class="row credits">
-                    <div class="col-12 col-md text-center footertext">Copyright 2000 - 2011 版权所有 备案号:晋ICP备07004479号
+                    <div class="col-lg-12 col-md-12 text-center footertext">Copyright 2000 - 2011 版权所有 备案号:晋ICP备07004479号
                         网址:www.sxtwedu.com</div>
                 </div>
             </div>
-       
-       </div>
-   </div>
+    
+        </div>
+</div>
 
    <script>
     $(function(){
+        $('.navbar-toggler').addClass('collapsed');
         $(".xs").hide();
         $(".xx").show();
          $("li.n-more").hover(function(){

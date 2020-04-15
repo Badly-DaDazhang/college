@@ -77,7 +77,9 @@ html{font-size:100%;}
             #teacher-banner .carousel-inner .carousel-item{
                 height:31rem;
             }
-
+            .carousel-indicators.teacher-ul{
+                margin-bottom:-35px;
+            }
            
         }  
         @media (min-width: 768px) and (max-width: 991px) {  
@@ -421,10 +423,42 @@ html{font-size:100%;}
             background:rgba(255,247,238,1);
             padding: 0.5rem 0 2rem 0;
         }
-       /* 脚部 footer */
-       .footer{
-        background-image: url('../images/contact-bg.png'); padding: 4rem 0 0;
-       }
-       .footer-link{
-        padding: 2em; margin-top: 4rem; color: #FFFFFF; background:rgba(0, 0, 0, 0.4)
-       }
+        .trends .tab-content .tab-pane div p{
+            
+            font-size:14px;
+            font-family:PingFangSC-Regular,PingFang SC;
+            font-weight:400;
+            color:rgba(51,51,51,1);
+            line-height:28px;
+            text-overflow: -o-ellipsis-lastline;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            line-clamp: 2;
+            -webkit-box-orient: vertical;
+        }
+        .trends .tab-content .tab-pane div p:hover{
+            cursor: pointer;
+            color: #C22626;
+
+        }
+        .card-item:hover{
+            cursor: pointer;
+            color: #C22626;
+        }
+        .card-item div p.ttt{
+            
+            font-size:14px;
+            font-family:PingFangSC-Regular,PingFang SC;
+            font-weight:400;
+            color:rgba(51,51,51,1);
+            line-height:20px;
+        }
+        .card-item img{
+            transition:all ease 500ms;
+        }
+        .card-item img:hover{
+            transform: translateY(-5px);
+        }
+       

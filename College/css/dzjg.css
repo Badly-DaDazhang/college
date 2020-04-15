@@ -1,0 +1,281 @@
+html{font-size:100%;} 
+
+@media (max-width: 767px) {  
+    /*在小于768像素的屏幕里,这里的样式才生效 xs*/  
+    
+
+    .zysz{
+        display: none;
+    }
+    .zysz-sm span.tit{
+
+        font-size:1rem;
+        font-family:PingFangSC-Regular,PingFang SC;
+        font-weight:400;
+        color:rgba(255,255,255,1) !important;
+    }
+    .trends-tittle ul li{
+        width:5rem !important;
+    }
+    .trends-tittle ul li a{
+        font-size:1rem !important;
+        padding:0 !important;
+        text-align: center;
+    }
+    
+    .act .module-b  ul li{
+        width:7.5rem !important;
+    }
+    .act .module-b ul li a{
+        font-size:1rem !important;
+        padding:0 !important;
+        text-align: center;
+    }
+    .act .module-b .tab-content .tab-pane .row div .card-item img{
+        height:200px;
+        width:100%;
+    }
+
+   
+
+
+   
+}  
+@media (min-width: 768px) and (max-width: 991px) {  
+    /*在768和991像素之间的屏幕里,这里的样式才生效 md */ 
+
+    .zysz{
+        display: none;
+    }
+    .zysz-sm span.tit{
+
+        font-size:1rem;
+        font-family:PingFangSC-Regular,PingFang SC;
+        font-weight:400;
+        color:rgba(255,255,255,1) !important;
+    }
+    .container.trends{
+        margin-top: 1rem !important;
+    }
+    
+}  
+@media (min-width: 992px) and (max-width: 1199px) {  
+    /*在992和1199像素之间的屏幕里,这里的样式才生效 lg*/ 
+    .zysz-sm{
+        display: none;
+    }
+    .zysz .zysz-l{
+            background:url("../images/index/zysz_bg.png");
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+
+            height: 9rem; 
+            position: relative;
+        }
+        
+        .zysz .zysz-l span.c-l{
+            width:48px;
+            height:66px;
+            font-size:1.5rem;
+            font-family:PingFangSC-Regular,PingFang SC;
+            font-weight:400;
+            color:rgba(255,255,255,1);
+            line-height:25px;
+
+            position:absolute;
+            top:35%;
+            left:31px;
+        }
+        .zysz .zysz-l span.c-rb{
+            width:49px;
+            height:20px;
+
+            font-size:0.5rem;
+            font-family:PingFangSC-Regular,PingFang SC;
+            font-weight:400;
+            color:rgba(255,255,255,1);
+            line-height:15px;
+
+            position:absolute;
+            right:3%;
+            bottom:5%;
+            
+        } 
+        .zysz .zysz-r{
+        
+            background-color:#f2f0f3;
+            padding:0;
+            
+        }
+        .zysz-r  .r-con{
+            width:99%;
+            margin-left:1%;
+            background-color:#f2f0f3;
+            margin:0 !important; 
+        }
+        .zysz-r  .r-con div{
+            height:4.5rem;
+            line-height:4.5rem;
+        }
+        
+}  
+@media (min-width: 1200px) {  
+    /*在大于1200像素的屏幕里,这里的样式才生效*/ 
+    .zysz .zysz-l{
+            background:url("../images/index/zysz_bg.png");
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+
+            height: 9rem; 
+            position: relative;
+        }
+        .zysz .zysz-l span.c-l{
+            width:48px;
+            height:66px;
+            font-size:1.5rem;
+            font-family:PingFangSC-Regular,PingFang SC;
+            font-weight:400;
+            color:rgba(255,255,255,1);
+            line-height:25px;
+
+            position:absolute;
+            top:35%;
+            left:31px;
+        }
+        .zysz .zysz-l span.c-rb{
+            width:49px;
+            height:20px;
+
+            font-size:0.5rem;
+            font-family:PingFangSC-Regular,PingFang SC;
+            font-weight:400;
+            color:rgba(255,255,255,1);
+            line-height:15px;
+
+            position:absolute;
+            right:3%;
+            bottom:5%;
+            
+        } 
+        .zysz .zysz-r{
+        
+            background-color:#f2f0f3;
+            padding:0;
+            
+        } 
+        .zysz-r  .r-con{
+            width:99%;
+            margin-left:1%;
+            background-color:#f2f0f3;
+            
+        }
+        .zysz-r  .r-con div{
+            height:9rem;
+            line-height:9rem;
+        }
+        .zysz-sm{
+            display: none;
+        }
+    
+}
+
+
+.zysz-r  .r-con div a{
+    text-decoration: none;
+    font-size:0.9rem;
+    font-family:PingFangSC-Regular,PingFang SC;
+    font-weight:400;
+    color:#D50C00;
+    line-height:0.8rem;
+    margin-left:22%;
+}
+.zysz-r  .r-con div a:hover{
+    color: #007bff;
+}
+span.s1,span.s2{
+    margin:0;
+}
+
+/* trends */
+.container.trends{
+    margin-top: 3em !important;
+}
+.trends .trends-tittle ul li a{
+   
+ 
+    font-size:1.5em;
+    font-family:PingFangSC-Medium,PingFang SC;
+    font-weight:500;
+    color:rgba(213,12,0,1);
+    line-height:2em;
+}
+.trends .tab-content{
+    min-height:20em;
+}
+ /* act */
+ .act{
+    background-color: #C22626;
+ }
+ .act .module-b{
+    padding: 5rem 0;
+ }
+
+ .act .module-b div.module-b-tit{
+    border-bottom: 1px solid #979797; margin-bottom: 1rem;
+ }
+.act .module-b ul li a{
+   
+ 
+   font-size:1.5rem;
+   font-family:PingFangSC-Medium,PingFang SC;
+   font-weight:500;
+   color:rgba(213,12,0,1);
+   line-height:2rem;
+}
+.act .module-b .tab-content .tab-pane .row>div{
+    background-color: #FFFFFF;
+    border:0.1rem solid #C22626;
+}
+.act .module-b .tab-content .tab-pane .row div .card-item{
+   margin:1rem 0;
+}
+.act .module-b .tab-content .tab-pane .row div .card-item img{
+    height:250px;
+    width:100%;
+}
+.act .module-b .tab-content .tab-pane .row div .card-item>div{
+    padding: 1em;
+}
+.act .module-b .tab-content .tab-pane .row div .card-item>div p.t{
+    font-size: 1.0em; 
+    font-weight: 600; 
+    color: #D50C00;
+}
+.act .module-b .tab-content .tab-pane .row div .card-item .date-c{
+    position: relative;
+    width:100%;
+    height:2.5rem;
+
+}
+.act .module-b .tab-content .tab-pane .row div .card-item .date-c .date{
+    width:4.6rem;
+    height:4.6rem;
+    line-height:2.1rem;
+    padding:0.6rem 0 0.2rem 0;
+    background:rgba(135,122,105,1);
+    text-align: center;
+    color:#fff;
+   position: absolute;
+   top:-2.3rem;
+   right:3%;
+   
+    
+}
+.date-c .date .day{
+    font-size:1.5rem;
+    display:block;
+}
+.date-c .date .year-mon{
+    font-size:0.5rem;
+    display:block;
+}

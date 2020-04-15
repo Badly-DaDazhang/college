@@ -79,29 +79,7 @@
     float: left;
     width: 20%;
 }
-/* footer */
 
-.footertext h6{
-    font-size: 0.5rem;
-    font-weight: 400;
-    margin: 8% 0 0 0;
-}
-.footertext a{
-    text-decoration: none;
-    color: #fff;
-    font-size: 0.5rem;
-    font-weight: 400;
-}
-.footertext a:hover{
-   color: #007bff;
-}
-.credits{
-    padding-top:40px;
-}
-.credits .text-center{
-    font-size: 0.5rem;
-    font-weight: 400;
-}
 /* public header */
 .bg-header-red{
     background:#f00;
@@ -165,18 +143,4 @@
 .checkline{
     margin-right:90px;
 }
-@media (max-width:768px){
-  .bg-enter{
-    padding: 20px;
-  }
-  .bg-body{
-    padding: 20px;
-  }
-  .fields input, .fields select{
-    height: 32px;
-    font-size: 14px;
-  }
-  .title h3{
-    font-size: 20px;
-  }
-}
+

@@ -17,40 +17,34 @@
 </head>
 
 <body>
-     <!-- 白色 -->
+    <!-- 白色 -->
 <!-- <div class="logo" style="background-color: #fff;">
-  <div class="container logo-con" >
-      <div class="row" >
-          <div class="col-9 logo-l" style="background-color: #fff;">
-              <img src="images/logo/yxhlx2x.png" />
-          </div>
-          <div  class="col-3 logo-r"  style="background-color: #fff;">
-              <nav class="my-2 my-md-0 mr-md-3" style="color: #D50C00;">
-                  <a class="p-2" >
-                      <i class="iconfont iconhome" ></i>同文主页</a>
-                  <a class="p-2" > 
-                      <i class="iconfont iconsearch" ></i>搜索</a>
-              </nav>
-          </div>
-          <div  class="col-3 logo-r-sm">
-              <nav style="height: 100%;">
-                  <a class="" ><i class="iconfont iconsearch" ></i></a>
-                  <span class="fe" style="display: inline-block;padding: 0;margin: 0;width:1%;height:1rem;border:1px solid#fff;"></span>
-                  <a class="" ><i class="iconfont icondaohang" ></i></a>
-              </nav>
-          </div>
-      </div>
+    <div class="container logo-con" >
+        <div class="row" >
+            <div class="col-lg-9 col-md-9 col-xs-12 col-sm-12 logo-l" style="background-color: #fff;">
+                <img src="images/logo/yxhlx2x.png" />
+            </div>
+            <div  class="col-3 logo-r"  style="background-color: #fff;">
+                <nav class="my-2 my-md-0 mr-md-3" style="color: #D50C00;">
+                    <a class="p-2" >
+                        <i class="iconfont iconhome" ></i>同文主页</a>
+                    <a class="p-2" > 
+                        <i class="iconfont iconsearch" ></i>搜索</a>
+                </nav>
+            </div>
+           
+        </div>
 
-  </div>
+    </div>
 
 
 
 </div> -->
-<!-- 红色 -->
-<div class="logo">
+ <!-- 红色 -->
+ <div class="logo">
     <div class="container logo-con" >
         <div class="row" >
-            <div class="col-9 logo-l" >
+            <div class="col-lg-9 col-md-9 col-xs-12 col-sm-12 logo-l" >
                 <img src="images/logo/yxhlx2x_1.png" />
             </div>
             <div  class="col-3 logo-r"  >
@@ -61,91 +55,108 @@
                         <i class="iconfont iconsearch"></i>搜索</a>
                 </nav>
             </div>
+           
+        </div>
+
+    </div>
+</div>
+<!-- 导航栏 -->
+<div class="container-fluid nav-container">
+    <div class="container dhl" >
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
             <div  class="col-3 logo-r-sm">
-                <nav style="height: 100%;">
+                <nav style="height: 2.3rem;">
                     <a class="" ><i class="iconfont iconsearch" ></i></a>
                     <span class="fe" style="display: inline-block;padding: 0;margin: 0;width:1%;height:1rem;border:1px solid#fff;"></span>
                     <a class="" ><i class="iconfont icondaohang" ></i></a>
                 </nav>
             </div>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">首页 <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item n-more">
+                        <a class="nav-link " href="#">系部简介
+                            <i class=" xx iconfont iconshoujixiala" style="width:1.2rem;float:right;font-size:1rem;font-weight: 600;"></i>
+                            <i class=" xs iconfont " style="width:1.2rem;float:right;font-size:1rem;font-weight: 600;text-align: center;"><img  src="images/xs.png" style="display: inline-block;margin-left: 5%;"></img></i>
+                        </a>
+                        <div class="hide-con">
+                            <ul class="h-c">
+                                <li class="c-i"><a>模拟字段1</a></li>
+                                <li class="c-i"><a>模拟字段2</a></li>
+                                <li class="c-i"><a>模拟字段3</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">系部动态</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">专业建设</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">系部公告</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">党团工作</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">学生工作</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">教育教学</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0" style="display: none;">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+    </div>
+</div>
+  <!-- 轮播-->
+  <div class="container-fluid banner" style="padding:0;margin-bottom:0.5rem;">
+    <div id="demo" class="carousel slide" data-ride="carousel">
+
+        <!-- 指示符 -->
+        <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+
+        <!-- 轮播图片 -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://static.runoob.com/images/mix/img_fjords_wide.jpg">
+            </div>
+            <div class="carousel-item">
+                <img src="https://static.runoob.com/images/mix/img_nature_wide.jpg">
+            </div>
+            <div class="carousel-item">
+                <img src="https://static.runoob.com/images/mix/img_mountains_wide.jpg">
+            </div>
         </div>
 
+        <!-- 左右切换按钮 -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+
     </div>
-
-
-
 </div>
-
-<!-- 导航栏 -->
-<div class="container-fluid nav-container">
-<div class="container dhl" >
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <button class="navbar-toggler" type="button" data-toggle="collapse"
-            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-            aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">首页 <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item n-more">
-                    <a class="nav-link " href="#">系部简介
-                        <i class=" xx iconfont iconshoujixiala" style="width:1.2rem;float:right;font-size:1rem;font-weight: 600;"></i>
-                        <i class=" xs iconfont " style="width:1.2rem;float:right;font-size:1rem;font-weight: 600;text-align: center;"><img  src="images/xs.png" style="display: inline-block;margin-left: 5%;"></img></i>
-                    </a>
-                    <div class="hide-con">
-                        <ul class="h-c">
-                            <li class="c-i"><a>模拟字段1</a></li>
-                            <li class="c-i"><a>模拟字段2</a></li>
-                            <li class="c-i"><a>模拟字段3</a></li>
-                        </ul>
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">系部动态</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">专业建设</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">系部公告</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">党团工作</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">学生工作</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">教育教学</a>
-                </li>
-            </ul>
-            <form class="form-inline my-2 my-lg-0" style="display: none;">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form>
-        </div>
-    </nav>
-</div>
-</div>
-
-
-
-
-
-
-
-
-
-
-
-    <!-- bannber -->
-    <div class="container-fluid accout-wrap">
-        <img src="" />
-    </div>
     <!-- content -->
     <div class="container-fluid">
         <div class="container">
@@ -195,59 +206,67 @@
             </div>
         </div>
     </div>
-      <!-- 脚部 footer -->
-   <div class="footer" >
-    <div class="container" >
-        <div class="container">
+     
+ <!-- 脚部 footer -->
+ <div class="footer" >
+    <!-- <div class="container" > -->
+        <div class="container footer-c">
             <div class="row">
-                <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12 col-xs-12">
-                    <p style="color: #FFFFFF; font-size: 1.2rem;">联系我们</p>
-                    <p style="font-size: 2.5rem; color: #36354A;">CONTACT US</p>
+                <div class="col-xl-8 col-lg-8 col-md-6 col-sm-12 col-xs-12 footer-c-l">
+                    <p >联系我们</p>
+                    <p style="font-size: 2.5rem; color: #D50C00;margin-top: 1rem;">CONTACT US</p>
                 </div>
-                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12" style="color: #FFFFFF;">
-                    <span style="font-size: 0.7rem;">联系电话</span> <br>
-                    0354-5584115
-                    <p></p>
-                    <span style="font-size: 0.7rem;">邮箱</span> <br>
-                    hulixizhuhong@163.com
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 footer-c-r">
+                    <div class="row">
+                        <span class="col-12 " >联系电话</span> 
+                        <span class="col-12 ">
+                            0354-5584115
+                        </span>
+                    </div>
+                    <div class="row">
+                        <span class="col-12 " >邮箱</span> 
+                        <span class="col-12 yx" ">hulixizhuhong@163.com</span> 
+                    </div>
+                    
+                  
+                    
                 </div>
             </div>
         </div>
-    </div>
-    <div class="footer-link">
+    <!-- </div> -->
+        <div class="footer-link">
 
-        <div class="container">
-            <div class="row">
-                <div class="col-8 col-md  footertext" style="min-width: 80px;">
-                    <h6 class="text-white">友情链接:</h5>
-                </div>
-                <div class="col-8 col-md footertext">
-                    <a href="#">中国工业机器人产业联盟</a>
-                </div>
-                <div class="col-8 col-md col-lg footertext">
-                    <a href="#">中国工业机器人产业联盟</a>
-                </div>
-                <div class="col-9 col-md footertext" style="min-width: 200px;">
-                    <a href="#">北京华航唯实机器人科技有限公司</a>
-                </div>
-                <div class="col-8 col-md footertext">
-                    <a href="#">山西通用航空产业发展研究院</a>
-                </div>
-                <div class="col-8 col-md footertext">
-                    <a href="#">中国通用航空网</a>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-1 col-md-12 col-xs-12  footertext" >
+                        <h6 class="text-white">友情链接:</h5>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-xs-5 footertext">
+                        <a href="#">中国工业机器人产业联盟</a>
+                    </div>
+                    <div class="col-lg-2 col-md-6  col-xs-5 footertext">
+                        <a href="#">中国工业机器人产业联盟</a>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-xs-5 footertext " >
+                        <a href="#">北京华航唯实机器人科技有限公司</a>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-xs-5 footertext">
+                        <a href="#">山西通用航空产业发展研究院</a>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-xs-5 footertext">
+                        <a href="#">中国通用航空网</a>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="container">
-            <div class="row credits">
-                <div class="col-12 col-md text-center footertext">Copyright 2000 - 2011 版权所有 备案号:晋ICP备07004479号
-                    网址:www.sxtwedu.com</div>
+            <div class="container">
+                <div class="row credits">
+                    <div class="col-12 col-md text-center footertext">Copyright 2000 - 2011 版权所有 备案号:晋ICP备07004479号
+                        网址:www.sxtwedu.com</div>
+                </div>
             </div>
+    
         </div>
-   
-   </div>
-    </div>
-
+</div>
     <script>
         $(function(){
             $(".xs").hide();
