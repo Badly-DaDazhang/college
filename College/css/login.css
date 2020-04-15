@@ -1,5 +1,27 @@
 
+   html, body {
+    height: 100%;
+}
 
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: table;
+    font-weight: 100;
+    font-family: 'Lato';
+}
+.my-login{
+  background: url("../images/loginbg.png") no-repeat bottom;
+  /* background-size: 100% 100%; */
+  height: 100vh;
+  padding-top:5%;
+
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  
+}
 .right{
   background: #fff;
   padding-top: 130px;
@@ -44,6 +66,10 @@
     /* background-size: 100% 100%; */
     height: 100vh;
     padding-top:5%;
+
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
     
 }
   .my-login-admin {
@@ -51,7 +77,9 @@
     /* padding: 20px 0 0; */
     width: 100%;
     margin-top: 35px;
-
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
   }
 
   .left img{
@@ -85,22 +113,23 @@
   .admin-right.right{
     padding-top: 0;
     position: absolute;
-    top: 110px;
+    top: 27%;
     background: none;
-    padding: 0 9% 0 13%;
-    padding-top: 0;
+    font-size:0.5em;
+    /* padding: 0 9% 0 13%; */
+    /* padding-top: 0; */
   }
   .row .admin-font{
     font-size: 10px !important;
   }
   .right2{
-    top: 118px;
+    top: 30%;
     left: 8px;
   }
 
   .container {
     position: relative;
-    margin-top: 13vh;
+    /* margin-top: 13vh; */
   }
 
   .t-center{
@@ -209,6 +238,10 @@
     /* background-size: 100% 100%; */
     height: 100vh;
     padding-top:5%;
+
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
     
 }
   .my-login-admin {
@@ -216,6 +249,10 @@
     padding: 20px 0 0;
     width: 100%;
     margin-top: 35px;
+
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
 
   }
   .left img{
@@ -234,22 +271,32 @@
     /* margin-top: 35px; */
   }
 
-  .right {
-    padding-top: 0;
+  .admin-right.right {
+    /* padding-top: 0; */
     position: absolute;
-    top: 110px;
-    background: none;
-    padding: 9%;
-    padding-top: 0;
+    top: 30%;
+    left:20%;
+    background: none;width: auto;
+    /* padding: 9%; */
+    /* padding-top: 0; */
+    padding: 120px 20px!important;
+    border-radius: 16px !important;
+   
+  
+
+    background-color: rgba(255,255,255,0.1) !important;
+  }
+  .form-group .label{
+    color:#fff !important;
   }
   .right2{
-    top: 118px;
+    top: 30%;
     left: 8px;
   }
 
   .container {
     position: relative;
-    margin-top: 13vh;
+    /* margin-top: 13vh; */
   }
 
   .t-center{
@@ -278,11 +325,12 @@
   }
 
   .lab {
-    color: rgba(0, 0, 0, .9) !important;
+    color: rgba(255, 255, 255, .9) !important;
     width: 48px;
     text-align-last: justify;
     text-align: justify;
     text-justify: distribute-all-lines;
+    font-weight: 600;
   }
 
   .us {
@@ -350,6 +398,10 @@
     height: 100vh;
     padding-top:5%;
 
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+
     
     
 }
@@ -378,6 +430,10 @@
       border: none; 
       background:#f5f5f5;
  }
+ .form-group{
+  text-align: left;
+ }
+
   
 }
 .p-r-0{
