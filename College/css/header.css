@@ -6,19 +6,31 @@ html{font-size:100%;user-select: none;}
     border-bottom:1px solid #fff
 
 }
+.logo.zs{
+    background-color: #877A69;
+}
 .logo .logo-con{
     background-color: #D50C00;
     width:100%;
+}
+.logo.zs .logo-con{
+    background-color: #877A69;
 }
 .logo .logo-con .row div{
     color: #FFFFFF;
     background-color: #D50C00;
     background-image: url('../images/base-bg.png'); 
 }
+.logo.zs .logo-con .row div{
+    background-color: #877A69;
+}
 .logo .logo-con .row div {
     padding:0;
     background-color: #D50C00;
     background-image: url('../images/base-bg.png'); 
+}
+.logo.zs .logo-con .row div{
+    background-color: #877A69;
 }
 .logo .logo-con .row div.logo-l img{
     width: 100%;
@@ -62,6 +74,9 @@ div.dhl .navbar{
     margin:0 !important;
     padding:0 !important;
 }
+.zs .dhl .navbar{
+    background-color: #877A69 !important;
+}
 .dhl .navbar {
     padding: 0;
 }
@@ -74,10 +89,19 @@ div.dhl .navbar{
     background-color: #BF0B01;
     background-image: url('../images/base-bg.png');
 }
+.zs .dhl .navbar-light .navbar-nav .active>.nav-link{
+    background-color: #7A6D5D;
+}
+
 div.dhl .navbar .navbar-collapse ul.mr-auto li:hover{
     color: #FFFFFF;
     background-color: #BF0B01;
     background-image: url('../images/base-bg.png');
+}
+.zs div.dhl .navbar .navbar-collapse ul.mr-auto li:hover{
+ 
+    background-color: #7A6D5D;
+    
 }
 div.dhl .navbar .navbar-collapse ul.mr-auto li.n-more{
     position: relative;
@@ -111,9 +135,13 @@ div.hide-con ul li{
     line-height:2rem;
     cursor: pointer;
     text-align: center;
+    background-color: #fff;
 }
 div.hide-con ul li:hover{
     background-color: #BF0B01;
+}
+.zs div.hide-con ul li:hover{
+    background-color: #7A6D5D;
 }
 div.hide-con ul li a{
     text-decoration: none;
@@ -129,6 +157,10 @@ div.hide-con ul li:hover a{
     font-weight:400;
     color:#fff;
     background-color: #BF0B01;
+}
+.zs div.hide-con ul li:hover a{
+    background-color:  #7A6D5D;
+   
 }
 @media (max-width: 767px) {  
     /*在小于768像素的屏幕里,这里的样式才生效 xs*/  

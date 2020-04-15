@@ -12,6 +12,11 @@
   min-width: 285px;
   min-height: 500px;
 }
+.ne-list.slider {
+  min-width: 285px;
+  min-height: 200px;
+  margin-bottom: 20px;
+}
 
 .slider h4 {
   line-height: 48px;
@@ -33,6 +38,27 @@
   cursor: pointer;
   border-bottom: 1px solid #EEEEEE;
 }
+ .ne-list.slider .slider-content ul li {
+  line-height: 48px;
+
+  color: #666666;
+  cursor: pointer;
+  border-bottom: 1px solid #EEEEEE;
+
+font-size:14px;
+font-family:PingFangSC-Regular,PingFang SC;
+font-weight:400;
+color:rgba(102,102,102,1);
+
+
+text-overflow: -o-ellipsis-lastline;
+overflow: hidden;
+text-overflow: ellipsis;
+display: -webkit-box;
+-webkit-line-clamp: 1;
+line-clamp: 1;
+-webkit-box-orient: vertical;
+}
 
 .slider-content ul li p {
   font-size: 12px;
@@ -46,6 +72,9 @@
 }
 
 .slider-content ul li.active {
+  color: #D50C00 !important;
+}
+.ne-list.slider .slider-content ul li.active {
   color: #D50C00 !important;
 }
 
@@ -221,6 +250,40 @@
   line-height: 30px;
 }
 
+
+/* news_list */
+.sm-news{
+  padding:0.6em 1%;
+}
+
+.sm-news .sm-new-r p{
+  height: 66px;
+  line-height: 22px;
+
+  color: #666666;
+  cursor: pointer;
+ 
+
+font-size:14px;
+font-family:PingFangSC-Regular,PingFang SC;
+font-weight:400;
+
+
+
+text-overflow: -o-ellipsis-lastline;
+overflow: hidden;
+text-overflow: ellipsis;
+display: -webkit-box;
+-webkit-line-clamp: 3;
+line-clamp: 3;
+-webkit-box-orient: vertical;
+}
+.slider-content ul li:hover{
+ color: #D50C00 !important;
+}
+.slider-content ul li:hover p{
+  color: #D50C00 !important;
+ }
 @media (max-width: 768px) {
   .menu {
     display: none;
@@ -260,6 +323,45 @@
     line-height: 50px;
     height: 74px;
     border-bottom: 1px dotted #ccc;
+    
+  }
+  .sm-news .sm-new-r p{
+   
+    line-height: 22px;
+  
+    color: #666666;
+    cursor: pointer;
+   
+  
+  font-size:14px; 
+  font-family:PingFangSC-Regular,PingFang SC;
+  font-weight:400;
+  
+  
+  
+  text-overflow: -o-ellipsis-lastline;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  line-clamp: 1;
+  -webkit-box-orient: vertical;
+  }
+  .account-list ul li p{
+
+    font-size:14px;
+    font-family:PingFangSC-Regular,PingFang SC;
+    font-weight:400;
+    color:rgba(102,102,102,1);
+
+
+    text-overflow: -o-ellipsis-lastline;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    line-clamp: 1;
+    -webkit-box-orient: vertical;
   }
 
   .account-list ul li span:nth-of-type(2) {

@@ -7,66 +7,102 @@
   <title>山西同文职业技术学院--医学护理系</title>
   <link rel="stylesheet" href="./css/bootstrap.min.css">
   <link rel="stylesheet" href="css/college.css">
-  <link rel="stylesheet" href="css/header.css">
+  
   <link rel="stylesheet" href="css/course.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="font/iconfont.css">
   <script src="./js/jquery.js"></script>
   <script src="./js/bootstrap.js"></script>
 </head>
 
 <body>
-  <div class="container-fluid bg-header-grid">
-    <div class="container ">
-      <div class="row">
-        <div class="col-xl-5 col-lg-5 col-md-5 col-sm-8 col-xs-8">
-          <img src="images/logo/yxhlx2x.png" style="width: 100%; margin: 1.5rem 0;" />
-        </div>
+ <!-- 棕色-->
+ <div class="logo zs">
+  <div class="container logo-con" >
+      <div class="row" >
+          <div class="col-lg-9 col-md-9 col-xs-12 col-sm-12 logo-l" >
+              <img src="images/logo/yxhlx2x_1.png" />
+          </div>
+          <div  class="col-3 logo-r"  >
+              <nav class="my-2 my-md-0 mr-md-3" style="">
+                  <a class="p-2" >
+                      <i class="iconfont iconhome"></i>同文主页</a>
+                  <a class="p-2">
+                      <i class="iconfont iconsearch"></i>搜索</a>
+              </nav>
+          </div>
+         
       </div>
-    </div>
+
   </div>
-  <div class="container-fluid header ">
-    <div class="container bg-nav" style="padding: 0;">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light"
-        style="background-color: #877A69!important;background-image: url('./images/debut-light.png');">
-        <a class="navbar-brand" href="#"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#">首页 <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">系部简介</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">系部动态</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">专业建设</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">系部公告</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">党团工作</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">学生工作</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">教育教学</a>
-            </li>
-          </ul>
-          <form class="form-inline my-2 my-lg-0" style="display: none;">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
-        </div>
+</div>
+<!-- 导航栏 -->
+<div class="container-fluid nav-container zs">
+  <div class="container dhl" >
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <button class="navbar-toggler" type="button" data-toggle="collapse"
+              data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          
+          <div  class="col-3 logo-r-sm">
+              <nav style="height: 2.3rem;">
+                  <a class="" ><i class="iconfont iconsearch" ></i></a>
+                  <span class="fe" style="display: inline-block;padding: 0;margin: 0;width:1%;height:1rem;border:1px solid#fff;"></span>
+                  <a class="" ><i class="iconfont icondaohang" ></i></a>
+              </nav>
+          </div>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                  <li class="nav-item active">
+                      <a class="nav-link" href="#">首页 <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item n-more">
+                      <a class="nav-link " href="#">系部简介
+                          <i class=" xx iconfont iconshoujixiala" style="width:1.2rem;float:right;font-size:1rem;font-weight: 600;"></i>
+                          <i class=" xs iconfont " style="width:1.2rem;float:right;font-size:1rem;font-weight: 600;text-align: center;"><img  src="images/xs.png" style="display: inline-block;margin-left: 5%;"></img></i>
+                      </a>
+                      <div class="hide-con">
+                          <ul class="h-c">
+                              <li class="c-i"><a>模拟字段1</a></li>
+                              <li class="c-i"><a>模拟字段2</a></li>
+                              <li class="c-i"><a>模拟字段3</a></li>
+                          </ul>
+                      </div>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">系部动态</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">专业建设</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">系部公告</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">党团工作</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">学生工作</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">教育教学</a>
+                  </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0" style="display: none;">
+                  <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              </form>
+          </div>
       </nav>
-    </div>
   </div>
+</div>
+
+
+
+
   <!-- 人体结构 -->
   <div class="container-fluid course-desc">
     <div class="container">
@@ -89,26 +125,30 @@
   </div>
   <!-- 教学视频 -->
   <div class="container-fluid course-video">
-    <div class="container">
-      <div class="">
-        <!-- 导航 -->
-        <ul class="nav nav-tabs new-tab " role="tablist" style="position: relative;">
-          <li role="presentation" class="active"><a href="#newpic" class="show" aria-controls="newpic" role="tab"
-              data-toggle="tab">教学视频</a>
-            <div class="bline show"></div>
-          </li>
-          <li role="presentation"><a href="#newvideo" aria-controls="newvideo" role="tab" data-toggle="tab">实践视频</a>
-            <div class="bline"></div>
-          </li>
-          <li role="presentation"><a href="#newques" aria-controls="newques" role="tab" data-toggle="tab">在线题库</a>
-            <div class="bline"></div>
-          </li>
-          <li style="line-height: 60px;position: absolute;right: 0;color: #333333;font-size: 12px;"> 更多> </li>
+    <div class="container tab-xxk-jhy">
+      
+      <div class="tittle" style="border-bottom: 1px solid #979797; margin-bottom: 1rem;">
+        <a href="" class=" btn btn-link float-right">更多 ></a>
+
+        <ul class="nav nav-pills tab-btns" id="pills-tab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="t-video-tab" data-toggle="pill" href="#t-video" role="tab"
+                    aria-controls="t-video" aria-selected="true">教学视频</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="new-video-tab" data-toggle="pill" href="#new-video" role="tab"
+                    aria-controls="new-video" aria-selected="false">实践视频</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="new-ques-tab" data-toggle="pill" href="#new-ques" role="tab"
+                    aria-controls="new-ques" aria-selected="false">在线题库</a>
+            </li>
         </ul>
-      </div>
+
+    </div>
       <!-- 带显示效果的内容 -->
       <div class="tab-content new-content">
-        <div role="tabpanel" class="tab-pane  in active text-center" id="newpic">
+        <div role="tabpanel" class="tab-pane  in active text-center" id="t-video">
           <div class="container">
             <div class="row">
               <div class="col-md-1 course-btn">解剖课教学视频一</div>
@@ -128,7 +168,7 @@
             </div>
           </div>
         </div>
-        <div role="tabpanel" class="tab-pane fade" id="newvideo">
+        <div role="tabpanel" class="tab-pane fade" id="new-video">
           <div class="container">
             <div class="row">
               <div class="col-md-1 course-btn">解剖课教学视频一</div>
@@ -148,7 +188,7 @@
             </div>
           </div>
         </div>
-        <div role="tabpanel" class="tab-pane fade" id="newques">
+        <div role="tabpanel" class="tab-pane fade" id="new-ques">
           <div class="container">
             <div class="row">
               <div class="col-md-1 course-btn">解剖课教学视频一</div>
@@ -183,14 +223,14 @@
       <div class="row ">
         <div class="col-md ">
           <div class="  teacheravatr " style="margin: 0 auto;">
-            <img src="./images/timg.jpeg" />
+            <img src="images/new/t1.png" />
             <p>刘德华</p>
             <p style="color: #666666; font-size: 14px;">正常人体结构课程负责人</p>
           </div>
         </div>
         <div class="col-md ">
           <div class="teacheravatr " style="margin: 0 auto;">
-            <img src="./images/timg.jpeg" />
+            <img src="images/new/t2.png" />
             <p>刘德华</p>
             <p style="color: #666666; font-size: 14px;">正常人体结构课程负责人</p>
           </div>
@@ -199,8 +239,8 @@
     </div>
   </div>
   <!-- 实验实训 -->
-  <div class="container-fluid bigtrain">
-    <div class="container">
+  <div class=" container-fluid bigtrain">
+    <div class="container ">
       <div class="row">
         <div class="col-md teachertop">
           <h5>实验实训</h5>
@@ -208,79 +248,128 @@
         </div>
       </div>
       <div class="row ">
-        <div class="col-md trainlist">
-          <img src="./images/timg.jpeg" />
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 trainlist">
+          <img src="images/course/sysx1.png" />
         </div>
-        <div class="col-md trainlist">
-          <img src="./images/timg.jpeg" />
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 trainlist">
+          <img src="images/course/sysx2.png" />
         </div>
-        <div class="col-md trainlist">
-          <img src="./images/timg.jpeg" />
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 trainlist">
+          <img src="images/course/sysx3.png" />
         </div>
-        <div class="col-md trainlist">
-          <img src="./images/timg.jpeg" />
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 trainlist">
+          <img src="images/course/sysx4.png" />
         </div>
-      </div>
-      <div class="row  ">
-        <div class="col-md trainlist">
-          <img src="./images/timg.jpeg" />
+      
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12  trainlist">
+          <img src="images/course/sysx5.png" />
         </div>
-        <div class="col-md trainlist">
-          <img src="./images/timg.jpeg" />
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 trainlist">
+          <img src="images/course/sysx6.png" />
         </div>
-        <div class="col-md trainlist">
-          <img src="./images/timg.jpeg" />
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 trainlist">
+          <img src="images/course/sysx7.png" />
         </div>
-        <div class="col-md trainlist">
-          <img src="./images/timg.jpeg" />
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- 脚部 -->
-  <div class="container-fluid" style="background-image: url(./images/contact-bg.png); padding: 4rem 0 0;">
-    <div class="container">
-      <div class="row">
-        <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12 col-xs-12">
-          <p style="color: #FFFFFF; font-size: 1.2rem;">联系我们</p>
-          <p style="font-size: 2.5rem; color: #36354A;">CONTACT US</p>
-        </div>
-        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12" style="color: #FFFFFF;">
-          <span style="font-size: 0.7rem;">联系电话</span> <br> 0354-5584115 <p></p>
-          <span style="font-size: 0.7rem;">邮箱</span> <br> hulixizhuhong@163.com </div>
-      </div>
-    </div>
-    <div style="padding: 2em; margin-top: 4rem; color: #FFFFFF; background:rgba(0, 0, 0, 0.4)">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="footertext" style="min-width: 80px;">
-            <h6 class="text-white">友情链接:</h5>
-          </div>
-          <div class="col-8 col-md footertext">
-            <h6>中国工业机器人产业联盟</h6>
-          </div>
-          <div class="col-8 col-md col-lg footertext">
-            <h6>中国工业机器人产业联盟</h6>
-          </div>
-          <div class="col-9 col-md footertext" style="min-width: 200px;">
-            <h6>北京华航唯实机器人科技有限公司</h6>
-          </div>
-          <div class="col-8 col-md footertext">
-            <h6>山西通用航空产业发展研究院</h6>
-          </div>
-          <div class="col-8 col-md footertext">
-            <h6>中国通用航空网</h6>
-          </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row credits">
-          <div class="col-12 col-md text-center footertext">Copyright 2000 - 2011 版权所有 备案号:晋ICP备07004479号
-            网址:www.sxtwedu.com</div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 trainlist">
+          <img src="images/course/sysx8.png" />
         </div>
       </div>
     </div>
   </div>
+
+ <!-- 脚部 footer -->
+ <div class="footer" >
+  <!-- <div class="container" > -->
+      <div class="container footer-c">
+          <div class="row">
+              <div class="col-xl-8 col-lg-8 col-md-6 col-sm-12 col-xs-12 footer-c-l">
+                  <p >联系我们</p>
+                  <p style="font-size: 2.5rem; color: #D50C00;margin-top: 1rem;">CONTACT US</p>
+              </div>
+              <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 footer-c-r">
+                  <div class="row">
+                      <span class="col-12 " >联系电话</span> 
+                      <span class="col-12 ">
+                          0354-5584115
+                      </span>
+                  </div>
+                  <div class="row">
+                      <span class="col-12 " >邮箱</span> 
+                      <span class="col-12 yx" ">hulixizhuhong@163.com</span> 
+                  </div>
+                  
+                
+                  
+              </div>
+          </div>
+      </div>
+  <!-- </div> -->
+      <div class="footer-link">
+
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-1 col-md-12 col-xs-12  footertext" >
+                      <h6 class="text-white">友情链接:</h5>
+                  </div>
+                  <div class="col-lg-2 col-md-6 col-xs-5 footertext">
+                      <a href="#">中国工业机器人产业联盟</a>
+                  </div>
+                  <div class="col-lg-2 col-md-6  col-xs-5 footertext">
+                      <a href="#">中国工业机器人产业联盟</a>
+                  </div>
+                  <div class="col-lg-3 col-md-6 col-xs-5 footertext " >
+                      <a href="#">北京华航唯实机器人科技有限公司</a>
+                  </div>
+                  <div class="col-lg-2 col-md-6 col-xs-5 footertext">
+                      <a href="#">山西通用航空产业发展研究院</a>
+                  </div>
+                  <div class="col-lg-2 col-md-6 col-xs-5 footertext">
+                      <a href="#">中国通用航空网</a>
+                  </div>
+              </div>
+          </div>
+          <div class="container">
+              <div class="row credits">
+                  <div class="col-12 col-md text-center footertext">Copyright 2000 - 2011 版权所有 备案号:晋ICP备07004479号
+                      网址:www.sxtwedu.com</div>
+              </div>
+          </div>
+  
+      </div>
+</div>
+
+
+  <script>
+      $(function(){
+          $(".xs").hide();
+          $(".xx").show();
+           $("li.n-more").hover(function(){
+               
+               $(this).children('.hide-con').fadeIn(500);
+               $(".xx").hide();
+               $(".xs").show();
+               $(this).children('.hide-con').hover(function(){
+                   $(this).addClass('xs');
+               },function(){
+                   $(this).children('.hide-con').hide();
+                   $(".xs").hide();
+                   $(".xx").show();
+               });
+           },function(){
+               $(this).children('.hide-con').fadeOut(500);
+               $(this).children('.hide-con').hover(function(){
+                   $(this).addClass('xs');
+               },function(){
+                   $(this).hide();
+                   $(".xs").hide();
+                   $(".xx").show();
+               });
+               $(".xs").hide();
+               $(".xx").show();
+           })
+      })
+
+  </script>
 </body>
 
 </html>

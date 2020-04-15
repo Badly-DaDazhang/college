@@ -3,8 +3,41 @@
     padding: 0;
     background-image: url(../images/base-bg.png); 
 }
+.nav-container.zs{
+    background-color: #877A69;
+}
+.nav-container.zs .tab-btns .nav-link.active, .tab-btns .show>.nav-link {
+    color: #877A69;
+    background-color: inherit;
+    border-bottom: 4px solid #877A69;
+}
 
-
+@media (max-width: 767px) {  
+    /*在小于768像素的屏幕里,这里的样式才生效 xs*/  
+    .tab-btns .nav-link {
+        display: block;
+        padding: 0 5px !important;
+        color: #000;
+        /* font-weight: 500; */
+        font-size: 1.5rem;
+    }
+   
+   
+}  
+@media (min-width: 768px) and (max-width: 991px) {  
+    /*在768和991像素之间的屏幕里,这里的样式才生效 md */ 
+  
+    
+}  
+@media (min-width: 992px) and (max-width: 1199px) {  
+    /*在992和1199像素之间的屏幕里,这里的样式才生效 lg*/ 
+   
+}  
+@media (min-width: 1200px) {  
+    /*在大于1200像素的屏幕里,这里的样式才生效*/ 
+    
+    
+}
 
 
 .slide-wrap{
@@ -55,6 +88,7 @@
     border-bottom: 4px solid #D50C00;
 }
 
+
 .tab-btns .nav-link {
     border-radius: 0;
 }
@@ -87,18 +121,9 @@
 .bg-header-blue,.bg-nav{
     background: #302C48;
 }
-/* 报名系统 */
-.bg-banner{
-    background: url("../images/enroolbanner.png") no-repeat top;
-    background-size: 100%;
-    height:234px;
-}
+
 /*  */
-.bg-enter{
-    background:#F1EFF2;
-    min-height: 1000px;
-    padding: 40px 150px 60px 150px;
-}
+
 .title h3{
     font-size: 24px;
     color:#333333;

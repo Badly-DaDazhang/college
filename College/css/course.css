@@ -1,3 +1,29 @@
+@media (max-width: 767px) {  
+    /*在小于768像素的屏幕里,这里的样式才生效 xs*/  
+    .tab-btns .nav-link {
+        display: block;
+        padding: 0 5px !important;
+        color: #000;
+        /* font-weight: 500; */
+        font-size: 1.5rem;
+    }
+   
+   
+}  
+@media (min-width: 768px) and (max-width: 991px) {  
+    /*在768和991像素之间的屏幕里,这里的样式才生效 md */ 
+  
+    
+}  
+@media (min-width: 992px) and (max-width: 1199px) {  
+    /*在992和1199像素之间的屏幕里,这里的样式才生效 lg*/ 
+   
+}  
+@media (min-width: 1200px) {  
+    /*在大于1200像素的屏幕里,这里的样式才生效*/ 
+    
+    
+}
 .course-pos{
     position: relative;
 }
@@ -52,14 +78,16 @@
     background: #fff;
 }
 
+
 .new-tab{
     padding-bottom: 20px;
   }
   .new-tab a{
       color: #302C48;
       font-size: 24px;
-      margin-right:60px;
-      margin-bottom:20px
+      margin-right:10px;
+      /* 
+      margin-bottom:20px */
   }
   .new-tab a:hover{
       text-decoration: none;
@@ -86,6 +114,7 @@
       font-size:14px;
       margin:31px 18px 0 0;
       box-sizing: border-box;
+      text-align: center;
   }
   .bigteacher,.bigtrain{
       background: #F2EAE1;
@@ -128,14 +157,16 @@
       background: #fff;
   }
   .trainlist{
-      width: 285px;
+      /* width: 285px;
       height: 285px;
       margin:20px;
-      padding: 0;
+      padding: 0; */
+      margin-bottom: 20px;
   }
   .trainlist img{
       width: 100%;
       height: 100%;
+   
   }
   
   @media screen and (max-width: 990px){
