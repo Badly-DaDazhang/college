@@ -285,6 +285,13 @@ div.hide-con ul li:hover a{
 }
 
 /* 轮播图 */
+.banner {
+    background-color: #F5F5F5 !important;
+    text-align: center;
+}
+.banner .carousel{
+    max-width: 1900px;
+}
 .banner .carousel .carousel-inner .carousel-item img{
     display:block;
     height:460px;
