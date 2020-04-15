@@ -10,8 +10,8 @@
 .admin-right.right{
   background: #fff;
   padding-top: 130px;
-  border-top-right-radius: 4px;
-  border-bottom-right-radius: 4px;
+  border-top-right-radius: 16px;
+  border-bottom-right-radius: 16px;
   margin-left:-10px;
 }
 
@@ -22,6 +22,7 @@
   border-radius: 20px;
   color: #fff;
   margin-top: 10%;
+  border: none;
 }
 
 .login-btn-admin {
